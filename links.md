@@ -1,1 +1,5 @@
-https://learn.microsoft.com/en-us/training/courses/sc-900t00
+* Microsoft Learn
+  * https://learn.microsoft.com/en-us/training/courses/sc-900t00
+* Microsoft Entra
+  * https://entra.microsoft.com/
+* 
