@@ -2,4 +2,7 @@
   * https://learn.microsoft.com/en-us/training/courses/sc-900t00
 * Microsoft Entra
   * https://entra.microsoft.com/
-* 
+* Microsoft Defender XDR
+  * https://security.microsoft.com/
+* Portal Azure
+  * https://portal.azure.com
