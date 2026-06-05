@@ -6,3 +6,5 @@
   * https://security.microsoft.com/
 * Portal Azure
   * https://portal.azure.com
+* Microsoft Service Trust Portal
+  * https://servicetrust.microsoft.com/
