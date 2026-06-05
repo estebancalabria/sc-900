@@ -8,3 +8,5 @@
   * https://portal.azure.com
 * Microsoft Service Trust Portal
   * https://servicetrust.microsoft.com/
+* Microsoft Purview
+  * https://purview.microsoft.com/
