@@ -1,0 +1,1 @@
+* En un modelo de plataforma como servicio (PaaS), la responsabilidad del hardware de red y del sistema operativo recae completamente en el proveedor de la nube, mientras que el cliente se enfoca únicamente en administrar sus aplicaciones y datos.
