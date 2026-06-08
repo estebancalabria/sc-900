@@ -1,1 +1,2 @@
 * En un modelo de plataforma como servicio (PaaS), la responsabilidad del hardware de red y del sistema operativo recae completamente en el proveedor de la nube, mientras que el cliente se enfoca únicamente en administrar sus aplicaciones y datos.
+* Para mitigar el movimiento lateral no detectado dentro de una red tras un incidente de seguridad, el principio de Zero Trust fundamental es asumir la brecha (Assume breach), implementando segmentación interna y limitando el radio de explosión del atacante.
