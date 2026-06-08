@@ -10,3 +10,5 @@
   * https://servicetrust.microsoft.com/
 * Microsoft Purview
   * https://purview.microsoft.com/
+* Security Copilot
+ * https://securitycopilot.microsoft.com/
