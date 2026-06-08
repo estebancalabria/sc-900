@@ -1,0 +1,1 @@
+* La autenticación se encarga de verificar y demostrar la identidad de un usuario, mientras que la autorización define los permisos y las acciones específicas que ese usuario tiene permitido realizar una vez dentro del sistema.
