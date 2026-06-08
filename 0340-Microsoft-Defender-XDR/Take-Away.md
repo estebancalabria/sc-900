@@ -7,3 +7,7 @@
 ---
 
 * Dentro del portal de Microsoft Defender, la pestaña de activos (Assets) centraliza la visualización de los dispositivos e identidades de la organización, mientras que el centro de aprendizaje (Learning Hub) ofrece un acceso directo a documentación y guías formativas integradas de Microsoft Learn.
+
+---
+
+* Las capacidades operativas de Microsoft Sentinel permiten automatizar respuestas con flujos basados en Logic Apps (Playbooks), buscar amenazas de forma proactiva (Hunts), normalizar logs heterogéneos mediante ASIM (Advanced Security Information Model) e integrar paquetes listos para usar desde el Content hub.
