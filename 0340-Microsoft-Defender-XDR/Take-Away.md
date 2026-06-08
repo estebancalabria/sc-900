@@ -25,3 +25,7 @@
 ## Weaknesses Page (Página de Debilidades)
       
            
+---
+## Microsoft Defender for Endpoint
+
+Microsoft Defender for Endpoint permite interactuar y probar sus capacidades mediante API Explorer, configurar políticas de seguridad de dispositivos basadas en riesgo, e implementar mecanismos preventivos de protección de próxima generación basados en heurística y comportamiento, complementados con capacidades de detección y respuesta en endpoints (EDR) que van más allá del control meramente preventivo.
