@@ -8,3 +8,6 @@ Microsoft Sentinel automatiza el manejo de incidentes a través de reglas de aut
 
 * Las capacidades operativas de Microsoft Sentinel permiten automatizar respuestas con flujos basados en Logic Apps (Playbooks), buscar amenazas de forma proactiva (Hunts), normalizar logs heterogéneos mediante ASIM (Advanced Security Information Model) e integrar paquetes listos para usar desde el Content hub.
 
+---
+
+* Microsoft Sentinel utiliza los libros de trabajo (Workbooks) para ofrecer capacidades avanzadas de visualización de datos y paneles interactivos, y las listas de seguimiento (Watchlists) para enriquecer la detección de amenazas mediante la correlación con fuentes de datos externas o indicadores personalizados.
