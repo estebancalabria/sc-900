@@ -8,6 +8,10 @@
 
 ---
 
+* Las botnets suelen estructurarse con equipos de usuarios comprometidos, mientras que en la arquitectura de red de Azure las subredes de una misma VNet se comunican de forma predeterminada, pudiendo restringirse mediante NSGs (aplicables a subredes o NICs) y protegerse de múltiples vulnerabilidades web complejas mediante Azure WAF.
+  
+---
+
 ## DDOS
 
 * Para proteger una aplicación web frente a picos de tráfico anómalos que degradan su rendimiento sin activar la protección básica de la infraestructura, se debe implementar Azure DDoS Network Protection, el cual proporciona mitigación personalizada basada en el comportamiento de la aplicación y telemetría detallada.
@@ -27,6 +31,7 @@
     * Cómo lo maneja Azure: Bloquea las inyecciones masivas de tráfico HTTP malformado o ráfagas extrañas que intentan agotar los recursos de cómputo (CPU/Memoria) de las instancias de tus aplicaciones web, actuando como escudo perimetral antes de que el tráfico toque tus servidores.
 
 ---
+
 
 ## WAF
 
