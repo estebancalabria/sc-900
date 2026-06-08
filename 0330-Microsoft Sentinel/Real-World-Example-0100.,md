@@ -1,0 +1,34 @@
+### El Escenario del Mundo Real: El ataque de las 3:00 AM
+
+Un atacante logra robar las credenciales de un empleado de tu empresa mediante phishing. A las 3:00 AM de un domingo, el atacante intenta loguearse en la cuenta desde una dirección IP reportada mundialmente como una red de cibercrimen (un nodo de salida de Tor).
+
+Como tienes conectados tus logs a la nube, **Microsoft Sentinel** detecta este comportamiento anómalo gracias a sus reglas de analítica y genera un **Incidente de Severidad ALTA** por "Inicio de sesión desde una IP maliciosa".
+
+---
+
+### ¿Cómo actúan las dos herramientas en equipo?
+
+Si no tuvieras automatización, el incidente quedaría flotando en el portal hasta el lunes a la mañana cuando llegue el equipo de seguridad, y para ese entonces el atacante ya habrá robado información.
+
+Aquí es donde entra el laboratorio que armamos:
+
+#### 1. La "Automation Rule" toma el control (En menos de 2 segundos)
+
+La regla de automatización que creamos en el portal está escuchando. Detecta que se creó un incidente y que cumple la condición: `Severity == High`.
+
+* **Acción inmediata en el portal:** Cambia el estado del incidente a *In Progress* y te lo asigna a vos automáticamente para que el tablero del SOC quede ordenado.
+* **El disparo:** Acto seguido, la regla "patea" al **Playbook** asociado para que empiece a correr.
+
+#### 2. El "Playbook" ejecuta las acciones en el mundo real
+
+El Playbook (que por detrás es una Logic App que tiene conectores con herramientas de terceros fuera de Azure) empieza a ejecutar sus pasos secuenciales de mitigación:
+
+* **Paso A (Bloqueo preventivo):** Se conecta automáticamente a **Microsoft Entra ID** y le da la orden de *Revocar todas las sesiones activas* del usuario comprometido y *Bloquear el inicio de sesión* de esa cuenta. El atacante queda desconectado al instante.
+* **Paso B (Aislamiento de red):** Se comunica por API con el firewall de la empresa (puede ser un Azure Firewall o uno físico como Palo Alto/Fortinet en la oficina) e introduce la IP del atacante en la **lista negra** para que no pueda volver a intentar tocar la infraestructura de la empresa.
+* **Paso C (Notificación de emergencia):** Envía un mensaje urgente con los detalles del incidente al canal de **Microsoft Teams** o Slack del equipo de Ciberseguridad, y abre un ticket de prioridad 1 en **Jira** o **ServiceNow** para que quede el registro legal de la auditoría.
+
+---
+
+### El resultado final:
+
+Cuando el equipo de seguridad se despierta el domingo por la mañana, entra a Sentinel y ve que el incidente ya está **mitigado y cerrado**. El ataque duró apenas 45 segundos gracias a que la *Automation Rule* coordinó las condiciones del incidente y el *Playbook* ejecutó las órdenes hacia los distintos sistemas de la empresa.
