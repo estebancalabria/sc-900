@@ -1,5 +1,7 @@
 # Take Away
 
+## Entitlement Management 
+
 * Microsoft Entra ID Governance utiliza las revisiones de acceso (access reviews) para auditar periódicamente los permisos vigentes y la administración de derechos (entitlement management) para automatizar la asignación, el ciclo de vida y la expiración del acceso a los recursos.
   * Access Reviews
     * Portal de Azure : Microsoft Entra -> Identity Governance -> Access Reviews
@@ -9,6 +11,10 @@
     * entra.microsoft.com : ID Gobernande ->  Entitlement Management
 
 ---
+
+Cuando un usuario externo que obtuvo acceso a través de un paquete de administración de derechos (entitlement management) pierde todas sus asignaciones válidas, el sistema puede configurarse para asegurar que sea eliminado automáticamente del directorio para mitigar la acumulación de cuentas huérfanas o inactivas.
+
+## Terms of USe
 
 * **Terms of Use (Términos de uso)**
   * Los Términos de Uso permiten a las organizaciones asegurarse de que los usuarios acepten los avisos legales o requisitos de cumplimiento antes de acceder a los recursos, y aunque se **crean y administran** dentro del área de Gobernanza, se **obligan (enforce)** aplicando una política de **Acceso Condicional**.
@@ -20,11 +26,14 @@
     * **entra.microsoft.com:** Protection $\rightarrow$ Conditional Access $\rightarrow$ Policies
 ---
 
-* Microsoft Entra ID Governance y PIM protegen los accesos privilegiados a recursos de Azure y estructuran revisiones de acceso secuenciales en varias etapas, mientras que el aprovisionamiento automatiza el ciclo de vida de las cuentas en aplicaciones externas y las condiciones de uso se exigen mediante políticas de acceso directo en lugar de reglas de grupos dinámicos.
-
----
+## User Provisioning
 
 * El User Provisioning es el proceso automático que toma las identidades de Microsoft Entra ID y se encarga de crear, actualizar y borrar sus cuentas en las aplicaciones externas (como Slack) registradas en Enterprise Applications, eliminando la gestión manual del ciclo de vida del usuario.
+
+
+## General
+
+* Microsoft Entra ID Governance y PIM protegen los accesos privilegiados a recursos de Azure y estructuran revisiones de acceso secuenciales en varias etapas, mientras que el aprovisionamiento automatiza el ciclo de vida de las cuentas en aplicaciones externas y las condiciones de uso se exigen mediante políticas de acceso directo en lugar de reglas de grupos dinámicos.
 
 ---
 
