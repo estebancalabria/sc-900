@@ -15,6 +15,9 @@
 
 ---
 
+Los agentes de Microsoft Copilot for Security actúan como extensiones operativas orientadas a automatizar y gestionar tareas repetitivas dentro de los flujos de trabajo de IT y seguridad, adaptándose dinámicamente a los procesos de la organización bajo el marco de protección del modelo Zero Trust de Microsoft.
+---
+
 ## Resumen de capacidades clave (Microsoft Copilot for Security)
 
 * Respuesta a Incidentes: Agiliza el triaje y la mitigación proporcionando contexto inmediato sobre alertas complejas para investigar y remediar amenazas con rapidez.
