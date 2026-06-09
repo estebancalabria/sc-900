@@ -35,6 +35,8 @@
 
 ## WAF
 
+* Para proteger una aplicación web en Azure frente a vulnerabilidades del OWASP Top 10 como inyección SQL y Cross-Site Scripting (XSS) mediante reglas administradas que se actualizan automáticamente con una configuración manual mínima, la solución idónea es implementar Azure Web Application Firewall (WAF).
+
 * En Azure, tenés dos lugares principales donde podés colgar el WAF, dependiendo de tu arquitectura:
   * Azure Application Gateway: Si tu aplicación es regional (está en una sola zona/VNet y balanceás tráfico a nivel local).
   * Azure Front Door: Si tu aplicación es global (multiregión, con CDN y alta disponibilidad mundial).
