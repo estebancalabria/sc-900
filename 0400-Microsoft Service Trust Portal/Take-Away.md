@@ -32,6 +32,5 @@
   * **Objetivo:** Ofrecer un acceso personalizado a documentación y herramientas basadas en la situación real de tu empresa.
   * **Documentos clave que encontrás acá:**
       * **Resources for your Organization (Botón final):** Contenido filtrado y guías específicas que aplican directamente a las suscripciones, licencias y permisos que tu organización tiene activos con Microsoft.
-  ---
 ---
 * La sección de "Reports, Whitepapers, and Artifacts" dentro del Service Trust Portal de Microsoft consolida documentación de cumplimiento clave, incluyendo las certificaciones de pruebas de penetración (Penetration Testing Attestations), recursos especializados de privacidad y protección de datos, y los planes de continuidad del negocio y recuperación ante desastres (BCP/DR).
