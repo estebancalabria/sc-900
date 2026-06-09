@@ -1,5 +1,6 @@
 # Take Away
-<img width="305" height="443" alt="image" src="https://github.com/user-attachments/assets/51f5bb96-e379-4f99-b07b-65cf6af14d13" />
+<img width="305" height="443" alt="image" src="https://github.com/user-attachments/assets/51f5bb96-e379-4f99-b07b-65cf6af14d13" />  
+
 > https://servicetrust.microsoft.com/
 
 * Certifications, Regulations and Standards (Certificaciones, Regulaciones y Estándares)
