@@ -5,6 +5,74 @@
 <img width="2256" height="1076" alt="image" src="https://github.com/user-attachments/assets/c57b5053-6d27-456e-b502-a2f9362a0e23" />
 
 ---
+## Opciones de Menu
+
+* Home
+    * Vistazo general rápido: Es el panel de control principal de la consola.
+    * Qué se hace: Muestra un resumen del estado de seguridad de la organización mediante tarjetas con alertas críticas, tareas pendientes y accesos rápidos operativos.
+* Exposure management
+    * Gestión proactiva del riesgo: Se enfoca en prevenir ataques antes de que ocurran analizando la superficie expuesta.
+    * Qué se hace: Monitorear métricas de riesgo como el **Exposure score** para bajar el nivel de vulnerabilidad y el **Secure score** para subir las defensas.
+    * Acciones clave: Descubrir qué configuraciones o parches faltan en tus dispositivos, identidades y nubes para cerrar las brechas de seguridad.
+* Investigation & response
+    * Gestión activa de incidentes: Es el centro de operaciones donde se manejan las amenazas detectadas en tiempo real.
+    * Subsección de Incidentes y alertas: Analizar y resolver incidentes, que agrupan alertas relacionadas en una sola historia, y revisar la lista cruda de alertas individuales.
+    * Subsección de Hunting: Realizar búsquedas de amenazas proactivas mediante consultas de datos en toda la organización.
+    * Subsección de Acciones y sumisiones: Ejecutar acciones de remediación como aislar un equipo infectado o borrar un mail malicioso, y enviar muestras de archivos sospechosos a Microsoft para su análisis.
+* Threat intelligence
+    * Contexto global de atacantes: El módulo de investigación profunda basado en datos de inteligencia mundial.
+    * Qué se hace: Rastrear el comportamiento, herramientas y tácticas de grupos de hackers conocidos, y analizar la reputación de direcciones IP, dominios o archivos sospechosos en internet.
+* Assets
+    * Inventario centralizado de la empresa: El mapa de todos los recursos que la consola está vigilando de forma activa.
+    * Qué se hace: Ver las fichas técnicas, el estado de salud, conexiones y el nivel de riesgo de tus dispositivos, usuarios y aplicaciones.
+* Microsoft Sentinel
+    * Puente con el SIEM: Integración directa con la torre de control de seguridad global.
+    * Qué se hace: Visualizar eventos correlacionados que van más allá del ecosistema de Microsoft, consolidando datos de firewalls locales o nubes de terceros en un único panel operativo.
+* Identities
+    * Seguridad de cuentas de usuario: Foco exclusivo en los intentos de autenticación y accesos del personal.
+    * Qué se hace: Detectar comportamientos anómalos en los inicios de sesión, sospechas de robo de contraseñas o ataques de fuerza bruta contra las cuentas de la organización.
+* Email & collaboration
+    * Protección del entorno de productividad: Seguridad para el tráfico de mensajería y archivos compartidos.
+    * Qué se hace: Configurar y revisar políticas contra phishing o malware transmitido por correo electrónico, Microsoft Teams, SharePoint y OneDrive.
+* Cloud apps
+    * Control de aplicaciones de terceros: El módulo que supervisa el software como servicio (SaaS).
+    * Qué se hace: Auditar qué aplicaciones en la nube usan los empleados para evitar el Shadow IT, detectar transferencias masivas de datos confidenciales y bloquear accesos sospechosos.
+* Cloud security
+    * Blindaje de la infraestructura de nube: Foco en servidores, contenedores y servicios en entornos virtuales.
+    * Qué se hace: Monitorear la postura de seguridad y defender las cargas de trabajo, como máquinas virtuales o bases de datos, que corren en entornos de nube pública.
+* SOC optimization
+    * Eficiencia del equipo de seguridad: Análisis del rendimiento del Centro de Operaciones de Seguridad.
+    * Qué se hace: Evaluar la velocidad de respuesta ante alertas, optimizar las reglas de detección y limpiar falsos positivos para reducir la fatiga de alertas.
+
+
+* Reports
+* Datos analíticos y ejecutivos: Tableros de control con estadísticas históricas.
+* Qué se hace: Generar informes sobre tendencias de ataques detectados, parches críticos pendientes y niveles de riesgo generales de la empresa para la gerencia.
+
+
+* Learning hub
+* Capacitación técnica: Acceso a material de entrenamiento integrado en el portal.
+* Qué se hace: Acceder a tutoriales, guías y entrenamientos oficiales para aprender a manejar las herramientas de la plataforma.
+
+
+* Trials
+* Evaluación de características: Espacio para probar nuevas soluciones.
+* Qué se hace: Activar versiones de prueba de otros módulos o licencias de seguridad avanzados que la empresa aún no tenga contratados.
+
+
+* More resources
+* Enlaces externos: Conexión con el ecosistema de seguridad global de Microsoft.
+* Qué se hace: Consultar comunidades de seguridad, blogs técnicos de respuesta a incidentes y documentación externa.
+
+
+* System
+* Configuraciones globales: El panel de administración técnica de la consola.
+* Qué se hace: Asignar permisos y roles para los analistas (RBAC), gestionar la configuración general del portal y administrar los conectores de datos entrantes.
+
+
+---
+
+## General
 
 ( Microsoft Defender Threat Intelligence (Defender TI) centraliza e indexa la telemetría global de infraestructuras maliciosas expuestas en internet, facilitando a los analistas de seguridad las tareas de búsqueda proactiva de amenazas (threat hunting) y la investigación profunda durante el ciclo de incident response directamente integradas en su consola unificada.
 
