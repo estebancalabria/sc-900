@@ -10,6 +10,10 @@
 
 ---
 
+* Para investigar el alcance total de una campaña de phishing coordinada y ejecutar acciones directas de remediación dentro de Microsoft 365, el equipo de seguridad debe utilizar el Explorador de Amenazas (Threat Explorer), el cual proporciona visibilidad detallada en tiempo real de los correos maliciosos y permite su eliminación o cuarentena.
+
+---
+
 * Las capacidades de Microsoft Defender Vulnerability Management permiten descubrir y monitorear activos heterogéneos, priorizar de forma inteligente los riesgos mediant inteligencia de amenazas, enviar tareas de remediación automatizadas hacia herramientas externas (como Intune), evaluar el cumplimiento de líneas base de seguridad y consolidar todas las vulnerabilidades (CVEs) detectadas en una página unificada de debilidades.
   
 ## Asset Discovery and Monitoring (Descubrimiento y Monitoreo de Activos)
