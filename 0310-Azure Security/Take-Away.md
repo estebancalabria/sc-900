@@ -12,6 +12,12 @@
   
 ---
 
+## Firewall
+
+Azure Firewall opera como un servicio de seguridad perimetral de alta disponibilidad con redundancia de zonas nativa que filtra tráfico de red y de aplicación basándose en reglas y en un motor automatizado de inteligencia de amenazas, permitiendo además la exportación flexible de sus registros diagnósticos hacia diversas plataformas de análisis y monitoreo centralizado.
+
+---
+
 ## DDOS
 
 * Para proteger una aplicación web frente a picos de tráfico anómalos que degradan su rendimiento sin activar la protección básica de la infraestructura, se debe implementar Azure DDoS Network Protection, el cual proporciona mitigación personalizada basada en el comportamiento de la aplicación y telemetría detallada.
