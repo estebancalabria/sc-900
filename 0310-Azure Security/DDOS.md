@@ -27,7 +27,30 @@ Si un atacante intenta tirar tu sitio web explotando vulnerabilidades del códig
 
 Para defenderte en ese nivel, la oración de resumen lo deja clarito: **organizaciones deben usar un Web Application Firewall (WAF)**. El WAF es el único componente que inspecciona el contenido de las peticiones HTTP/HTTPS (Capa 7) para bloquear las amenazas web. Por eso, en una arquitectura segura, DDoS Protection y WAF siempre trabajan juntos en capas.
 
+---
 
+## El flujo de trabajo real en la consola funciona de la siguiente manera:
+
+### 🏢 Caso 1: Si querés usar "Network Protection" (El plan corporativo)
+
+1. Buscás en el portal de Azure **"DDoS protection plans"** y le das a Crear.
+2. Vas a ver que la pantalla es súper simple: solo te pide asignarle un nombre, una suscripción y un grupo de recursos. **No hay ningún desplegable de niveles (Tiers)**.
+3. Al crearlo, estás generando un "cascarón" de tipo *Network Protection*.
+4. **Cómo se activa:** Una vez creado, tenés que ir a tus **Redes Virtuales (VNets)**, entrar a la sección de *DDoS protection* de la red que elijas, tildar la opción "Network" y asociarla al plan que acabás de fabricar.
+
+---
+
+### 🌐 Caso 2: Si querés usar "IP Protection" (Por IP individual)
+
+Para este nivel **no tenés que crear ningún plan de DDoS previamente**. No existe un recurso llamado "Plan IP Protection" en el mercado de Azure.
+
+* **Cómo se activa:** Vas directo a la **IP Pública** que querés proteger (por ejemplo, la IP de tu Firewall o de tu máquina virtual).
+* En el menú izquierdo de esa IP Pública, entrás a **Protected properties** (o Propiedades protegidas).
+* Ahí adentro vas a ver la opción para activar la protección DDoS a nivel de IP directamente con un botón, cobrándote de forma individual por esa IP específica sin necesidad de vincularla a ningún plan centralizado.
+
+> 💡 **En resumen para la práctica:** Si creás el recurso desde cero en el portal, estás creando sí o sí el nivel *Network*. Si querés el nivel *IP*, te olvidás de la pantalla de creación de planes y vas directo a configurar la IP pública que te interesa blindar.
+
+---
 ## 🛠️ Paso a Paso: Implementación de Azure DDoS Network Protection
 
 ### Etapa 1: Crear el Plan de Protección DDoS
