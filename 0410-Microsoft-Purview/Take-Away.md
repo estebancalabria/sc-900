@@ -14,6 +14,10 @@
 
 ---
 
+* Los principios de privacidad de Microsoft prohíben el uso del contenido del cliente para segmentación publicitaria, mientras que sus etiquetas de sensibilidad se extienden a chats y reuniones de Teams, diferenciándose conceptualmente las cartas puente (bridge letters) cuya función es cubrir brechas temporales de certificación y no reemplazar reportes de auditoría obsoletos.
+
+---
+
 # Roles
 
 * **Data Steward (Encargado de datos)**
