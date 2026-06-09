@@ -20,3 +20,8 @@
 
 ---
 
+* Para extender las capacidades de protección de contraseñas globales y las listas de exclusión de Microsoft Entra a los restablecimientos realizados de forma nativa en el entorno local, se requiere integrar Active Directory on-premises con **Microsoft Entra password protection** mediante el despliegue de sus agentes de dominio correspondientes.
+ * https://learn.microsoft.com/en-us/entra/identity/authentication/howto-password-ban-bad-on-premises-deploy
+ * https://www.microsoft.com/en-us/download/details.aspx?id=57071
+
+---
