@@ -18,6 +18,10 @@ Azure Firewall opera como un servicio de seguridad perimetral de alta disponibil
 
 ---
 
+Para centralizar el control de tráfico y mitigar la complejidad operativa en entornos multisuscripción de Azure, se adopta un diseño Hub-and-Spoke desplegando Azure Firewall en una red virtual centralizada, complementado con la activación de su motor de inteligencia de amenazas para interceptar y bloquear conexiones hacia dominios e IPs maliciosas conocidas.
+
+---
+
 ## DDOS
 
 * Para proteger una aplicación web frente a picos de tráfico anómalos que degradan su rendimiento sin activar la protección básica de la infraestructura, se debe implementar Azure DDoS Network Protection, el cual proporciona mitigación personalizada basada en el comportamiento de la aplicación y telemetría detallada.
