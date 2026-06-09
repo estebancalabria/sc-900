@@ -18,6 +18,10 @@
 
 ---
 
+* La gobernanza de datos distribuye sus responsabilidades delegando el control de accesos y la calidad en el Data Owner, el enriquecimiento técnico en los procesos de Data Curation, la consulta de activos confiables en el Data Consumer, la supervisión estratégica de políticas en la Central Data Office y la consistencia del glosario o linaje en el Data Steward.
+  
+---
+
 # Roles
 
 * **Data Steward (Encargado de datos)**
