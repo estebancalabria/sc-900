@@ -63,6 +63,28 @@
 * Configuraciones globales: El panel de administración técnica de la consola.
 * Qué se hace: Asignar permisos y roles para los analistas (RBAC), gestionar la configuración general del portal y administrar los conectores de datos entrantes.
 
+---
+
+# Thread Intelligence
+
+* Visión general de Threat intelligence
+   * Qué es: Es el módulo especializado en inteligencia de amenazas globales dentro del portal de Microsoft Defender.
+   * Función principal: Sirve como un centro de investigación profunda que recopila, indexa y estructura datos sobre atacantes, infraestructuras maliciosas y vulnerabilidades a nivel mundial para ayudar a los analistas a entender el contexto de las amenazas externas.
+* Threat analytics
+   * Qué es: El panel de análisis e informes de amenazas emergentes.
+   * Función clave: Proporciona reportes curados por expertos sobre campañas de ataque activas en internet, detallando el nivel de exposición e impacto real que tienen esas amenazas específicas dentro de tu propia organización.
+* Intel management
+   * Qué es: El centro de control operativo de tus propios datos de inteligencia.
+   * Función clave: Permite administrar, configurar e integrar tus propios indicadores de compromiso (IoCs), fuentes personalizadas y reglas de inteligencia para alimentar los motores de detección.
+* Intel profiles
+   * Qué es: El catálogo estructurado de perfiles de ciberseguridad.
+   * Función clave: Contiene información técnica y detallada sobre actores de amenazas conocidos (grupos de hackers), familias de malware asociadas, tácticas utilizadas y las vulnerabilidades que suelen explotar de forma frecuente.
+* Intel explorer
+   * Qué es: El motor de búsqueda avanzado del portal.
+   * Función clave: Permite a los analistas realizar búsquedas directas de indicadores específicos (direcciones IP, dominios, hashes de archivos), códigos de vulnerabilidades conocidas (CVEs) o palabras clave para dar soporte a investigaciones en curso.
+* Intel projects
+   * Qué es: El espacio de organización de investigaciones o casos.
+   * Función clave: Permite agrupar y organizar indicadores de compromiso (IoCs), artefactos encontrados y analistas colaboradores dentro de un mismo contenedor para llevar un seguimiento estructurado de investigaciones a largo plazo.
 
 ---
 
