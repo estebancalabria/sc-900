@@ -8,3 +8,7 @@
 ---
 
 * El flujo continuo de interacción y seguimiento de consultas con Microsoft Security Copilot se denomina sesión (session), dentro de la cual el usuario ingresa instrucciones (prompts) y el orquestador nativo de la plataforma se encarga de combinar y componer dinámicamente las capacidades de los distintos plugins para construir una respuesta exhaustiva.
+
+---
+
+* Microsoft Copilot for Security optimiza las operaciones de defensa al permitir la generación automatizada de consultas KQL a partir de lenguaje natural y el consumo de sus capacidades embebidas dentro de múltiples plataformas de seguridad, garantizando el aislamiento de datos comerciales frente al entrenamiento de modelos externos mediante su infraestructura basada en Azure OpenAI Services.
