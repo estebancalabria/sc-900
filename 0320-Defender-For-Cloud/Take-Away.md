@@ -4,3 +4,6 @@ Microsoft Defender for Cloud unifica la gestión de seguridad en pipelines de De
 
 <img width="1653" height="1103" alt="image" src="https://github.com/user-attachments/assets/85aa044b-6eb3-4013-afd5-34483a5a4937" />
 
+---
+
+Microsoft Defender for Cloud unifica la visibilidad operativa mediante su soporte nativo multicloud para entornos AWS y GCP y la protección específica contra amenazas de resolución de nombres con Defender for DNS, permitiendo la activación simultánea de múltiples planes modulares por suscripción dado que las características de seguridad mejoradas quedan excluidas del nivel fundacional gratuito de CSPM.
