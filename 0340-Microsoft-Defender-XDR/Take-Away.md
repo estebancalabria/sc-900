@@ -43,21 +43,15 @@
 * SOC optimization
     * Eficiencia del equipo de seguridad: Análisis del rendimiento del Centro de Operaciones de Seguridad.
     * Qué se hace: Evaluar la velocidad de respuesta ante alertas, optimizar las reglas de detección y limpiar falsos positivos para reducir la fatiga de alertas.
-
-
 * Reports
-* Datos analíticos y ejecutivos: Tableros de control con estadísticas históricas.
-* Qué se hace: Generar informes sobre tendencias de ataques detectados, parches críticos pendientes y niveles de riesgo generales de la empresa para la gerencia.
-
-
+   * Datos analíticos y ejecutivos: Tableros de control con estadísticas históricas.
+   * Qué se hace: Generar informes sobre tendencias de ataques detectados, parches críticos pendientes y niveles de riesgo generales de la empresa para la gerencia.
 * Learning hub
-* Capacitación técnica: Acceso a material de entrenamiento integrado en el portal.
-* Qué se hace: Acceder a tutoriales, guías y entrenamientos oficiales para aprender a manejar las herramientas de la plataforma.
-
-
+      * Capacitación técnica: Acceso a material de entrenamiento integrado en el portal.
+      * Qué se hace: Acceder a tutoriales, guías y entrenamientos oficiales para aprender a manejar las herramientas de la plataforma.
 * Trials
-* Evaluación de características: Espacio para probar nuevas soluciones.
-* Qué se hace: Activar versiones de prueba de otros módulos o licencias de seguridad avanzados que la empresa aún no tenga contratados.
+      * Evaluación de características: Espacio para probar nuevas soluciones.
+      * Qué se hace: Activar versiones de prueba de otros módulos o licencias de seguridad avanzados que la empresa aún no tenga contratados.
 
 
 * More resources
