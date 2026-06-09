@@ -12,3 +12,13 @@
 ---
 
 * Microsoft Copilot for Security optimiza las operaciones de defensa al permitir la generación automatizada de consultas KQL a partir de lenguaje natural y el consumo de sus capacidades embebidas dentro de múltiples plataformas de seguridad, garantizando el aislamiento de datos comerciales frente al entrenamiento de modelos externos mediante su infraestructura basada en Azure OpenAI Services.
+
+---
+
+## Resumen de capacidades clave (Microsoft Copilot for Security)
+
+* Respuesta a Incidentes: Agiliza el triaje y la mitigación proporcionando contexto inmediato sobre alertas complejas para investigar y remediar amenazas con rapidez.
+* Ingeniería de Detección: Democratiza el análisis técnico al traducir scripts sospechosos y automatizar la creación de consultas KQL avanzadas mediante lenguaje natural.
+* Gestión de la Postura (CSPM): Facilita la comprensión del riesgo del entorno a través de la entrega de recomendaciones priorizadas para robustecer la infraestructura.
+* Gobernanza de Identidades: Simplifica la administración de accesos guiando paso a paso al administrador en la configuración segura de grupos y flujos de trabajo de ciclo de vida (lifecycle workflows).
+* Reportería Ejecutiva: Optimiza la comunicación corporativa mediante la generación automatizada de resúmenes e informes técnicos adaptados para stakeholders.
