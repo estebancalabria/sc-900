@@ -4,6 +4,31 @@
 
 <img width="2256" height="1076" alt="image" src="https://github.com/user-attachments/assets/c57b5053-6d27-456e-b502-a2f9362a0e23" />
 
+* **Certifications, Regulations and Standards (Certificaciones, Regulaciones y Estándares)**
+  * **ISO/IEC:** Certificados oficiales descargables (como ISO 27001 para seguridad e ISO 27018 para privacidad).
+  * **SOC:** Los informes de auditoría externa SOC 1, SOC 2 y SOC 3 sobre la efectividad de los controles operativos de Microsoft.
+  * **GDPR:** Recursos específicos de cumplimiento normativo para la protección de datos personales de la Unión Europea.
+  * **FedRAMP:** Certificaciones y validaciones requeridas para el cumplimiento con el gobierno federal de los Estados Unidos.
+  * **PCI:** Estándares de seguridad para la industria de tarjetas de pago (PCI-DSS).
+  * **CSA Star:** Certificación de la Cloud Security Alliance que evalúa la transparencia y seguridad del proveedor de nube.
+  * **Australia IRAP:** Evaluaciones específicas de seguridad bajo el programa de asesores registrados de Australia.
+  * **Singapore MTCS:** Certificación de seguridad en la nube de múltiples niveles según el estándar de Singapur.
+  * **Spain ENS:** Cumplimiento con el Esquema Nacional de Seguridad de España.
+* **Reports, Whitepapers and Artifacts (Informes, Libros Blancos y Artefactos)**
+  * **BCP and DR:** Planes de Continuidad del Negocio y Recuperación ante Desastres que garantizan la operación frente a caídas masivas.
+  * **Penetration Test and Security Assessments:** Informes ejecutivos de empresas de ciberseguridad externas que atacan la nube de Microsoft de forma controlada para auditar su defensa.
+  * **Privacy and Data Protection:** Guías, manuales y recursos que explican cómo Microsoft cuida y procesa los datos confidenciales.
+  * **FAQ and Whitepapers:** Libros blancos detallados y respuestas a preguntas frecuentes sobre cifrado de datos, aislamiento de inquilinos (*tenant isolation*) y gestión de claves.
+  * **AI Resources:** La documentación más nueva enfocada en la seguridad, privacidad y cumplimiento regulatorio de herramientas de Inteligencia Artificial (como Copilot y Azure OpenAI).
+* **Industry and Regional Resources (Recursos Regionales y de la Industria)**
+  * **Financial Services:** Documentación específica para el sector bancario y financiero (por ejemplo, normativas del Banco Central de distintos países).
+  * **Healthcare and Life Sciences:** Recursos para el sector de la salud y medicina (como cumplimiento de la ley HIPAA).
+  * **Media and Entertainment:** Estándares de seguridad de datos para la industria del entretenimiento y medios.
+  * **United States Government:** Recursos exclusivos y regulaciones federales estrictas para clientes gubernamentales de EE.UU.
+  * **Regional Resources:** Documentos de cumplimiento adaptados a políticas locales y normativas de distintas regiones del mundo.
+  * **Other Industries:** Recursos para sectores como automotriz, telecomunicaciones, energía y educación.
+* **Resources for your Organization (Recursos para tu Organización)**
+  * **Resources for your Organization:** Contenido filtrado y guías específicas que aplican directamente a las suscripciones, licencias y permisos que tu organización tiene activos con Microsoft.
 ---
 
 * Dentro del portal de Microsoft Defender, la pestaña de activos (Assets) centraliza la visualización de los dispositivos e identidades de la organización, mientras que el centro de aprendizaje (Learning Hub) ofrece un acceso directo a documentación y guías formativas integradas de Microsoft Learn.
