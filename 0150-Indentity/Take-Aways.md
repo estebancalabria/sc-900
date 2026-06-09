@@ -1,10 +1,18 @@
-* Take Away Bullets
+# Take Away
 
 * La autenticación se encarga de verificar y demostrar la identidad de un usuario, mientras que la autorización define los permisos y las acciones específicas que ese usuario tiene permitido realizar una vez dentro del sistema.
+
+---
+
 * Los pilares de la identidad definen que una identidad puede representar usuarios, dispositivos o aplicaciones, donde la auditoría genera reportes de su uso, la administración gestiona su ciclo de vida (y no sus permisos post-autenticación), y el proceso técnico exige que la autenticación ocurra obligatoriamente antes de la autorización.
 
+## Federacion
 
-# Pilares Identidad
+* El establecimiento de una relación de confianza entre proveedores de identidad distintos para validar tokens de autenticación emitidos por un dominio externo, permitiendo el acceso entre organizaciones sin un inicio de sesión duplicado, se conoce conceptualmente como Federación (Federation).
+
+* Bajo un esquema de federación, el usuario realiza la autenticación directamente ante su propio proveedor de identidad (identity provider), delegándose el acceso al servicio externo de un tercero gracias a la existencia de una relación de confianza (trust relationship) establecida previamente entre ambos proveedores.
+
+## Pilares Identidad
 
 Los **4 pilares de la identidad** en el modelo de control de acceso y seguridad de Microsoft (especialmente detallados en la certificación SC-900) se conocen comúnmente en inglés como **"The Four A's"**.
 
