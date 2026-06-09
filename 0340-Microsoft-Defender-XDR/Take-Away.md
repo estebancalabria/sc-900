@@ -4,6 +4,9 @@
 
 <img width="2256" height="1076" alt="image" src="https://github.com/user-attachments/assets/c57b5053-6d27-456e-b502-a2f9362a0e23" />
 
+---
+
+( Microsoft Defender Threat Intelligence (Defender TI) centraliza e indexa la telemetría global de infraestructuras maliciosas expuestas en internet, facilitando a los analistas de seguridad las tareas de búsqueda proactiva de amenazas (threat hunting) y la investigación profunda durante el ciclo de incident response directamente integradas en su consola unificada.
 
 ---
 
