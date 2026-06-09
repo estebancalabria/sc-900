@@ -14,6 +14,12 @@
 
 ---
 
+* Microsoft Security Exposure Management consolida la visibilidad de la postura de seguridad dentro del portal de Defender al permitir la simulación y el mapeo de rutas de ataque (attack paths) para identificar debilidades críticas, además de unificar el puntaje de seguridad (Secure Score) global para realizar un seguimiento continuo de las acciones de mejora.
+
+<img width="147" height="169" alt="image" src="https://github.com/user-attachments/assets/4e4b0a10-7ba2-40dd-88fd-faaebb95a8fe" />
+
+---
+
 * Las capacidades de Microsoft Defender Vulnerability Management permiten descubrir y monitorear activos heterogéneos, priorizar de forma inteligente los riesgos mediant inteligencia de amenazas, enviar tareas de remediación automatizadas hacia herramientas externas (como Intune), evaluar el cumplimiento de líneas base de seguridad y consolidar todas las vulnerabilidades (CVEs) detectadas en una página unificada de debilidades.
   
 ## Asset Discovery and Monitoring (Descubrimiento y Monitoreo de Activos)
