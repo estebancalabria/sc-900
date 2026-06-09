@@ -1,3 +1,33 @@
+# DDOS
+
+## 🛡️ 1. Azure DDoS Protection: Network Protection vs. IP Protection
+
+Azure ofrece dos sabores para proteger tus recursos públicos contra ataques de denegación de servicio (Capa 3 y Capa 4). La diferencia entre ellos es puramente comercial y de alcance de recursos:
+
+### **IP Protection (La opción económica/básica)**
+
+* **Cómo funciona:** Se asocia directamente a una **IP pública individual** (por ejemplo, la IP de una máquina virtual o de un Load Balancer).
+* **Qué incluye:** Mitigación de ingeniería pura (*core engineering mitigation*). Es decir, el motor automático de Azure detecta si hay una inundación de tráfico basura hacia esa IP y lo frena para que tu servicio no se caiga.
+* **Qué NO tiene:** No te da ninguna garantía económica ni soporte premium.
+
+### **Network Protection (La opción corporativa/Premium)**
+
+* **Cómo funciona:** Se compra a nivel de **toda tu red virtual (VNet)** y protege automáticamente a todos los recursos que estén conectados dentro de ella.
+* **El valor agregado (Lo que menciona el texto):** Incluye **garantías de costo (*cost protection*)**. Esto significa que si sufrís un ataque DDoS masivo y tus recursos de Azure (como las máquinas virtuales) empiezan a escalar de forma automática para aguantar los trapos, generándote una factura de miles de dólares, Microsoft te cubre y te devuelve esa plata. Además, te da descuentos comerciales en servicios asociados como el WAF.
+
+---
+
+## 🌐 2. La Capa 7 (Aplicación) y el WAF
+
+Acá es donde el examen suele meter la trampa para ver si pisás el palito:
+
+> **Regra de oro:** Ninguno de los dos planes de Azure DDoS Protection (ni Network ni IP) te protege por sí solo contra ataques a la **Capa 7 (Capa de Aplicación)**. Ellos solo miran volumen de tráfico (red y transporte).
+
+Si un atacante intenta tirar tu sitio web explotando vulnerabilidades del código, inyecciones SQL o ataques dirigidos específicamente a la lógica de la aplicación, el servicio de DDoS de Azure no lo va a frenar.
+
+Para defenderte en ese nivel, la oración de resumen lo deja clarito: **organizaciones deben usar un Web Application Firewall (WAF)**. El WAF es el único componente que inspecciona el contenido de las peticiones HTTP/HTTPS (Capa 7) para bloquear las amenazas web. Por eso, en una arquitectura segura, DDoS Protection y WAF siempre trabajan juntos en capas.
+
+
 ## 🛠️ Paso a Paso: Implementación de Azure DDoS Network Protection
 
 ### Etapa 1: Crear el Plan de Protección DDoS
