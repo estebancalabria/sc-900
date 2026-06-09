@@ -38,3 +38,7 @@ Cuando un usuario externo que obtuvo acceso a través de un paquete de administr
 ---
 
 * Las características de gobernanza de identidades en Microsoft Entra permiten condicionar los términos de uso según los roles asignados y programar revisiones de acceso trimestrales de forma recurrente, mientras que la gestión de derechos (Entitlement Management) extiende su alcance a usuarios externos y PIM se limita a mitigar la persistencia de privilegios elevados en lugar de remover accesos estándar.
+
+---
+
+* Como solución de gestión de infraestructura de derechos de identidad (CIEM), Microsoft Entra Permissions Management ofrece compatibilidad nativa con entornos multicloud (como Azure, AWS y GCP) para proporcionar visibilidad integral y remediación sobre accesos no utilizados o con excesivos privilegios.
