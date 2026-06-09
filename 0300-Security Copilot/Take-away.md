@@ -14,8 +14,8 @@
 * Microsoft Copilot for Security optimiza las operaciones de defensa al permitir la generación automatizada de consultas KQL a partir de lenguaje natural y el consumo de sus capacidades embebidas dentro de múltiples plataformas de seguridad, garantizando el aislamiento de datos comerciales frente al entrenamiento de modelos externos mediante su infraestructura basada en Azure OpenAI Services.
 
 ---
+Los agentes de Microsoft Copilot for Security actúan como extensiones operativas orientadas a automatizar y gestionar tareas repetitivas dentro de los flujos de trabajo de IT y seguridad, adaptándose dinámicamente a los procesos de la organización bajo el marco de protección del modelo Zero Trust de Microsoft
 
-Los agentes de Microsoft Copilot for Security actúan como extensiones operativas orientadas a automatizar y gestionar tareas repetitivas dentro de los flujos de trabajo de IT y seguridad, adaptándose dinámicamente a los procesos de la organización bajo el marco de protección del modelo Zero Trust de Microsoft.
 ---
 
 ## Resumen de capacidades clave (Microsoft Copilot for Security)
