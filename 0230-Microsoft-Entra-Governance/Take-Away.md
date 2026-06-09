@@ -27,3 +27,5 @@
 * El User Provisioning es el proceso automático que toma las identidades de Microsoft Entra ID y se encarga de crear, actualizar y borrar sus cuentas en las aplicaciones externas (como Slack) registradas en Enterprise Applications, eliminando la gestión manual del ciclo de vida del usuario.
 
 ---
+
+* Las características de gobernanza de identidades en Microsoft Entra permiten condicionar los términos de uso según los roles asignados y programar revisiones de acceso trimestrales de forma recurrente, mientras que la gestión de derechos (Entitlement Management) extiende su alcance a usuarios externos y PIM se limita a mitigar la persistencia de privilegios elevados en lugar de remover accesos estándar.
