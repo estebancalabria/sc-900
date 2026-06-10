@@ -149,3 +149,19 @@ Microsoft Defender for Endpoint permite interactuar y probar sus capacidades med
 ---
 
 Las capacidades de Endpoint Detection and Response (EDR) integradas en Microsoft Defender para Endpoint permiten a los analistas del SOC realizar análisis forenses avanzados, visualizar la correlación completa de alertas asociadas a una brecha de seguridad y ejecutar acciones de respuesta inmediatas ante comportamientos anómalos como el movimiento lateral entre dispositivos.
+
+--
+
+### Capacidades Oficiales de Microsoft Defender For Endpoint
+
+* Threat and Vulnerability Management (Gestión de Vulnerabilidades): Automática en el descubrimiento. Escanea de forma continua y automática todo el software desactualizado de los equipos y calcula el inventario. Sin embargo, la remediación (instalar el parche de Windows o actualizar Chrome) no es automática por defecto; te genera las tareas para que las ejecutes vos o tu equipo de IT.
+
+* Attack Surface Reduction (ASR): Automática una vez configurada. Las reglas en sí no vienen activadas "de fábrica" porque podrían bloquear programas legítimos de la empresa si no se prueban primero. Vos tenés que entrar al portal y activarlas (ej: "Bloquear macros de Office"). Una vez que las pasás al modo Block, su ejecución es 100% automática e intercepta el ataque en el acto.
+
+* Next-Generation Protection (El Antivirus): 100% Automática. Viene activa por defecto a nivel de sistema operativo. Monitorea el disco en tiempo real, consulta la inteligencia artificial de la nube de Microsoft y manda a cuarentena los archivos infectados al instante sin que nadie tenga que mover un dedo.
+
+* Endpoint Detection and Response (EDR): Automática en grabación y detección, manual en la respuesta base. El EDR graba la "caja negra" de procesos y te dibuja el mapa del incidente de forma totalmente automática. Pero las acciones drásticas de respuesta (como hacer clic en el botón de Isolate Device para aislar una notebook de la red) las tiene que decidir y ejecutar un analista humano.
+
+* Automated Investigation and Remediation (AIR): 100% Automática. Este es justamente el motor diseñado para automatizar lo que el EDR deja en manos humanas. Si el EDR detecta una alerta pesada a las 3 de la mañana, AIR se despierta solo, corre un árbol de investigación virtual, analiza la memoria, busca el virus en otras máquinas y lo limpia de forma autónoma.
+
+* Microsoft Threat Experts: Humana (No automática). Como es un servicio de soporte y hunting compuesto por ingenieros y analistas humanos de Microsoft que revisan casos complejos o responden a tus consultas, no entra en la categoría de automatización por software.
