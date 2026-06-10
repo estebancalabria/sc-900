@@ -35,3 +35,7 @@ Microsoft Defender for Identity protege entornos híbridos analizando de manera 
 ---
 
 Las capacidades de colaboración de Azure Active Directory (Azure AD) B2B permiten federar el acceso de usuarios externos provenientes de organizaciones socias, integrándolos de forma controlada como usuarios invitados (guest users) dentro del directorio corporativo sin necesidad de administrar sus credenciales locales.
+
+---
+
+La implementación de identidades híbridas se realiza mediante herramientas de sincronización como Azure AD Connect para integrar los servicios locales de AD DS con Azure AD bajo un mismo tenant de organización, descartando la necesidad de desplegar múltiples inquilinos de Microsoft 365.
