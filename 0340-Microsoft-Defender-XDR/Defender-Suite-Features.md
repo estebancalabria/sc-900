@@ -32,7 +32,5 @@
         * Alertas tempranas ante intentos de tomar el control total del Active Directory (ej: ataques *Golden Ticket* o modificaciones de permisos *DCShadow*).
     * **ISPM - Identity Security Posture Management**
         * Evaluaciones de seguridad que exponen debilidades del Active Directory local (ej: cuentas con contraseñas que no expiran).
-    
-    
     * **IDR - Identity Direct Remediation**
-    * Capacidad de deshabilitar cuentas o forzar el cambio de contraseña de un usuario local directamente desde el portal en la nube.
+        * Capacidad de deshabilitar cuentas o forzar el cambio de contraseña de un usuario local directamente desde el portal en la nube.
