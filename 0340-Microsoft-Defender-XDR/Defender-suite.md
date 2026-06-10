@@ -9,6 +9,7 @@
 * **Microsoft Defender for Endpoint (MDE)**
 * **Qué protege:** Las computadoras de los usuarios (Windows, Mac, Linux), celulares (Android, iOS) y servidores corporativos. Es el antivirus avanzado (EDR).
 * **Dónde se encuentra/administra:** Las alertas e investigaciones se hacen en el portal de Defender, pero las políticas de instalación y configuración de los agentes se empujan masivamente desde **Microsoft Intune**.
+* Microsoft Defender for Endpoint ofrece capacidades avanzadas de protección para dispositivos que incluyen la investigación y remediación automatizada de alertas de seguridad, así como reglas de reducción de la superficie de ataque (attack surface reduction) para minimizar los vectores vulnerables en los endpoints de la organización.
 
 
 * **Microsoft Defender for Identity (MDI)**
