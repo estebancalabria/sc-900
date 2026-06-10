@@ -32,6 +32,14 @@ El Compliance score dentro de Microsoft Purview cuantifica el nivel de cumplimie
 
 * Al configurar un nuevo tenant de Microsoft 365 y requerir el uso de los registros de auditoría de Microsoft Purview, la mejor acción técnica inicial para asegurar su disponibilidad es verificar formalmente que la funcionalidad de auditoría (auditing) esté efectivamente activada para esa suscripción.
 
+---
+
+* Advanced Audit (actualmente conocido como Audit Premium) registra eventos forenses críticos de intercambio, como la propiedad MailItemsAccessed, permitiendo auditar cuándo se abrieron o descargaron correos específicos.
+
+* S No comparten el mismo tiempo de retención. Audit (Standard) retiene los logs por un máximo de 180 días de forma predeterminada, mientras que Audit (Premium) extiende esta retención base a 1 año (e incluso permite configuraciones de hasta 10 años mediante licencias add-on).
+
+* Advanced Audit asigna un ancho de banda dedicado de alta prioridad (high-priority bandwidth) para organizaciones que necesitan extraer grandes volúmenes de datos mediante la API de Actividad de Office 365, evitando restricciones por throttling.
+
 ## eDiscovery
 
 * eDiscovery se utiliza para buscar y revisar información almacenada electrónicamente, mientras que Communication Compliance se encarga de monitorear mensajes internos y externos para detectar violaciones de políticas corporativas.
