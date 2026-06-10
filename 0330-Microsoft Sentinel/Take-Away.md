@@ -19,3 +19,7 @@ Microsoft Sentinel automatiza el manejo de incidentes a través de reglas de aut
 ---
 
 * Microsoft Sentinel funciona como una plataforma SIEM/SOAR capaz de centralizar e ingestar telemetría híbrida o multicloud proveniente de AWS, GCP y entornos locales, ofreciendo tableros interactivos mediante Workbooks para la visualización de tendencias y permitiendo estructurar estrategias de remediación semiautomatizadas donde los analistas validan las acciones de los Playbooks antes de su ejecución operativa.
+
+---
+
+Para conectar cualquier fuente de datos (ya sea de Microsoft como Defender, o de terceros como Firewalls Fortinet, AWS CloudTrail, etc.) hacia Microsoft Sentinel en tiempo real, se utilizan los Data Connectors (conectores de datos) integrados en la plataforma. El Log Analytics Workspace es donde se almacenan los datos, pero la herramienta de integración propiamente dicha es el conector.
