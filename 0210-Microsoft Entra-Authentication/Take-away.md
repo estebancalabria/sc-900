@@ -44,6 +44,10 @@
 
 * Hello for Business: los datos biométricos del usuario empleados para la autenticación se almacenan únicamente en el dispositivo local (protegidos por el chip TPM) y nunca se envían a la nube ni a servidores externos.
 
+---
+
+* La autenticación de paso de Microsoft Entra (Entra ID Pass-through authentication) es un método de autenticación híbrido que permite a los usuarios iniciar sesión en servicios en la nube utilizando el mismo nombre de usuario y contraseña que manejan en su Active Directory local. Al implementarse mediante agentes ligeros locales, las solicitudes de validación de credenciales se envían y validan directamente contra los controladores de dominio locales en tiempo real.
+
 ## MFA
 
 * Azure Multi-Factor Authentication (MFA) admite la validación de identidad a través de mensajes de texto (SMS), la aplicación móvil Microsoft Authenticator y llamadas telefónicas automatizadas, excluyendo de los factores nativos de segundo paso a las preguntas de seguridad o la verificación por correo electrónico estándar para inicios de sesión tradicionales de usuarios.
