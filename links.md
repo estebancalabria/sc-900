@@ -11,4 +11,6 @@
 * Microsoft Purview
   * https://purview.microsoft.com/
 * Security Copilot
- * https://securitycopilot.microsoft.com/
+  * https://securitycopilot.microsoft.com/
+* Intune
+  * https://intune.microsoft.com/
