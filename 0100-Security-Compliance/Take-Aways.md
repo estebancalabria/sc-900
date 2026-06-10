@@ -15,3 +15,5 @@
 * El modelo Zero Trust se estructura sobre seis pilares fundamentales (Identidades, Dispositivos, Aplicaciones, Datos, Infraestructura y Redes), cada uno con controles de seguridad específicos que van desde la autenticación fuerte hasta la segmentación y el cifrado de la información.Bajo el modelo de responsabilidad compartida en la nube, el cliente siempre retiene de forma exclusiva la responsabilidad sobre la gobernanza de su información y datos, la gestión de sus cuentas e identidades, y el control de los dispositivos finales (endpoints) como PCs y dispositivos móviles, independientemente de si se utiliza IaaS, PaaS o SaaS.
 
 ---
+
+* La estrategia de implementar múltiples capas de protección a lo largo de toda una infraestructura tecnológica corresponde al enfoque metodológico de defensa en profundidad (defense in depth). Esta filosofía busca mitigar los riesgos de seguridad garantizando que, si un atacante logra comprometer uno de los perímetros o controles iniciales, existan capas subsiguientes para contener y ralentizar el avance del vector de amenaza.
