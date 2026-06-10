@@ -13,5 +13,8 @@ Microsoft Defender for Cloud unifica la visibilidad operativa mediante su soport
 El Secure Score de Microsoft Defender for Cloud actúa como un indicador unificado y transversal que evalúa el estado de cumplimiento normativo y robustez técnica a lo largo de múltiples suscripciones de Azure, incrementando su puntuación porcentual a medida que se mitigan riesgos críticos mediante la aplicación de actualizaciones del sistema y la exigencia de autenticación multifactor (MFA).
 
 ---
+## Security baselines for Azure
 
 Los Security baselines for Azure definen el marco de referencia normativo que provee recomendaciones y guías de configuración alineadas con estándares internacionales para robustecer la postura de seguridad de los servicios integrados en la nube.
+
+<img width="782" height="379" alt="image" src="https://github.com/user-attachments/assets/4c08462e-986d-43cc-ae29-1231d8c6437e" />
