@@ -27,3 +27,7 @@
 ---
 
 * La administración integral de Microsoft Intune, incluyendo el despliegue de aplicaciones, la configuración de políticas de cumplimiento y la gestión del ciclo de vida de los dispositivos móviles y de escritorio, se realiza de forma centralizada a través del portal de Microsoft Endpoint Manager admin center (actualmente denominado centro de administración de Microsoft Intune).
+
+---
+
+Microsoft Defender for Identity protege entornos híbridos analizando de manera continua las señales y la autenticación de los servicios de directorio para identificar vectores de ataque basados en identidades, especializándose en la detección de movimientos laterales ejecutados por ciberdelincuentes y en el descubrimiento de actividades internas maliciosas (malicious insider activity).
