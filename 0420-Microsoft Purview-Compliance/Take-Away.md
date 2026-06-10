@@ -28,6 +28,10 @@ El Compliance score dentro de Microsoft Purview cuantifica el nivel de cumplimie
 
 * La protección de la información se estructura mediante etiquetas de sensibilidad (Sensitivity Labels) que clasifican el contenido de forma persistente con metadatos y marcado visual (Content Marking), mientras que las políticas de etiquetas (Label Policies) dictan su distribución e imponen reglas operativas en el cliente, tales como el etiquetado obligatorio (Mandatory Labeling) o la solicitud de justificación (Justification Requirement) al degradar la seguridad.
 
+---
+
+* Al configurar un nuevo tenant de Microsoft 365 y requerir el uso de los registros de auditoría de Microsoft Purview, la mejor acción técnica inicial para asegurar su disponibilidad es verificar formalmente que la funcionalidad de auditoría (auditing) esté efectivamente activada para esa suscripción.
+
 ## eDiscovery
 
 * eDiscovery se utiliza para buscar y revisar información almacenada electrónicamente, mientras que Communication Compliance se encarga de monitorear mensajes internos y externos para detectar violaciones de políticas corporativas.
