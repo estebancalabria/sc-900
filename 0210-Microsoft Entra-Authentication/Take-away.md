@@ -25,3 +25,5 @@
  * https://www.microsoft.com/en-us/download/details.aspx?id=57071
 
 ---
+
+* La administración integral de Microsoft Intune, incluyendo el despliegue de aplicaciones, la configuración de políticas de cumplimiento y la gestión del ciclo de vida de los dispositivos móviles y de escritorio, se realiza de forma centralizada a través del portal de Microsoft Endpoint Manager admin center (actualmente denominado centro de administración de Microsoft Intune).
