@@ -36,3 +36,7 @@
 * La sección de "Reports, Whitepapers, and Artifacts" dentro del Service Trust Portal de Microsoft consolida documentación de cumplimiento clave, incluyendo las certificaciones de pruebas de penetración (Penetration Testing Attestations), recursos especializados de privacidad y protección de datos, y los planes de continuidad del negocio y recuperación ante desastres (BCP/DR).
 ---
 * El Service Trust Portal organiza sus recursos normativos estructurando los reportes de privacidad y auditorías externas en Reports, Whitepapers, and Artifacts, las guías sectoriales o geográficas en Industry and Regional Resources, las métricas personalizadas del inquilino en Resources for your Organization y el seguimiento adaptado de marcadores en My Library.
+---
+* El Microsoft Service Trust Portal funciona como el repositorio central y transparente de la compañía para la descarga de informes de auditoría externos, certificaciones internacionales (como las normas ISO) y documentación de cumplimiento normativo aplicable a todos sus servicios globales de nube.
+
+  
