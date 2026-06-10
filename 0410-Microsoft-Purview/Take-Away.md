@@ -19,6 +19,10 @@
 ---
 
 * La gobernanza de datos distribuye sus responsabilidades delegando el control de accesos y la calidad en el Data Owner, el enriquecimiento técnico en los procesos de Data Curation, la consulta de activos confiables en el Data Consumer, la supervisión estratégica de políticas en la Central Data Office y la consistencia del glosario o linaje en el Data Steward.
+
+---
+
+* las subcategorías de acciones de Microsoft Compliance Manager (Preventative, Detective y Corrective) con sus respectivos ejemplos prácticos de control: cifrado para prevenir, auditorías para detectar y cambios post-incidente para corregir.
   
 ---
 
