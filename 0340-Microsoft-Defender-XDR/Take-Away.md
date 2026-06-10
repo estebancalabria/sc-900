@@ -87,6 +87,8 @@
    * Función clave: Permite agrupar y organizar indicadores de compromiso (IoCs), artefactos encontrados y analistas colaboradores dentro de un mismo contenedor para llevar un seguimiento estructurado de investigaciones a largo plazo.
 ---
 
+* La administración de incidentes (incidents) en el portal de Microsoft 365 Defender permite correlacionar múltiples alertas relacionadas para identificar de forma centralizada qué dispositivos, usuarios u otros activos específicos de la organización se ven afectados por un evento de seguridad.
+
 ## Soc Optimization (Security Operations Center)
 
 La característica de SOC Optimization dentro del portal unificado de Microsoft Defender entrega recomendaciones basadas en datos para maximizar la eficiencia técnica y el valor operativo de las herramientas de seguridad, ayudando al equipo del SOC a perfeccionar la cobertura de detección frente a amenazas en constante evolución.
