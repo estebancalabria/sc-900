@@ -1,5 +1,10 @@
 # Take Away
 
+## Identity Protection
+
+* Microsoft Entra ID Identity Protection permite automatizar la detección y remediación de riesgos basados en la identidad, investigar vulnerabilidades o sospechas relacionadas con la autenticación de los usuarios y exportar los datos de detección de riesgos hacia herramientas o utilidades de terceros (como sistemas SIEM) para su posterior análisis.
+ * Azure Portal -> Entra ID -> Security -> Protect -> Identity Protection
+
 ## Entitlement Management 
 
 * Microsoft Entra ID Governance utiliza las revisiones de acceso (access reviews) para auditar periódicamente los permisos vigentes y la administración de derechos (entitlement management) para automatizar la asignación, el ciclo de vida y la expiración del acceso a los recursos.
