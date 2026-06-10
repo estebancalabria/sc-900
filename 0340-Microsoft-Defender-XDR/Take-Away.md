@@ -145,3 +145,7 @@ Paso 5: Contención y Remediación (Take response actions): Una vez determinado 
 ## Microsoft Defender for Endpoint
 
 Microsoft Defender for Endpoint permite interactuar y probar sus capacidades mediante API Explorer, configurar políticas de seguridad de dispositivos basadas en riesgo, e implementar mecanismos preventivos de protección de próxima generación basados en heurística y comportamiento, complementados con capacidades de detección y respuesta en endpoints (EDR) que van más allá del control meramente preventivo.
+
+---
+
+Las capacidades de Endpoint Detection and Response (EDR) integradas en Microsoft Defender para Endpoint permiten a los analistas del SOC realizar análisis forenses avanzados, visualizar la correlación completa de alertas asociadas a una brecha de seguridad y ejecutar acciones de respuesta inmediatas ante comportamientos anómalos como el movimiento lateral entre dispositivos.
