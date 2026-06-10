@@ -108,6 +108,15 @@ Paso 4: Investigación Avanzada (Launch advanced hunting): Si los datos de la al
 Paso 5: Contención y Remediación (Take response actions): Una vez determinado el veredicto, se aplican las acciones correctivas (aislar un endpoint, suspender un usuario, borrar correos maliciosos). Estas acciones de mitigación se consolidan y ejecutan a través del Action Center.
 ---
 
+## Secure Score
+
+* Microsoft Secure Score centraliza recomendaciones de seguridad de diversas soluciones del ecosistema de Microsoft 365, incluyendo Microsoft Cloud App Security (ahora conocido como Microsoft Defender for Cloud Apps), sugiriendo acciones de mejora como la configuración de políticas de anomalías o el control del descubrimiento de aplicaciones.
+
+* El portal de Microsoft 365 Defender incluye una pestaña de comparación (benchmarking) que permite evaluar de manera porcentual y gráfica cómo se sitúa el nivel de seguridad de tu inquilino en comparación con otras organizaciones del mismo sector, tamaño o región.
+
+* Si mitigas un riesgo de seguridad utilizando una aplicación o software de un tercero, Microsoft Secure Score permite marcar esa acción de mejora como "mitigada a través de un tercero" (mitigated through third party), otorgándote los puntos correspondientes dentro del cálculo total del score.
+
+---
 ## General
 
 ( Microsoft Defender Threat Intelligence (Defender TI) centraliza e indexa la telemetría global de infraestructuras maliciosas expuestas en internet, facilitando a los analistas de seguridad las tareas de búsqueda proactiva de amenazas (threat hunting) y la investigación profunda durante el ciclo de incident response directamente integradas en su consola unificada.
