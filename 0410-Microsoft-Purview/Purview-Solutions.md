@@ -19,9 +19,9 @@
         * **Records Management**
             * Administra documentos corporativos de alto valor legal regulando su ciclo de vida estricto.
    * **Data Governance**
-          * **Data Catalog**
+        * **Data Catalog**
             * Permite buscar y examinar los activos de datos mediante un inventario centralizado.
-         * **Data Quality**
+        * **Data Quality**
             * Evalúa si tus datos son confiables mediante reglas automatizadas e Inteligencia Artificial.
          * **Data Estate Insights**
             * Muestra tableros ejecutivos sobre la salud, uso y brechas de gobernanza de tus datos.
