@@ -12,6 +12,10 @@
   
 ---
 
+Para garantizar la centralización y evitar la exposición de credenciales en el código fuente, la arquitectura de seguridad de Azure requiere el uso de Azure Key Vault como bóveda criptográfica centralizada, permitiendo que las aplicaciones recuperen de forma segura contraseñas y claves de API mediante referencias directas a sus identificadores de objeto (object identifiers).
+
+---
+
 ## Firewall
 
 Azure Firewall opera como un servicio de seguridad perimetral de alta disponibilidad con redundancia de zonas nativa que filtra tráfico de red y de aplicación basándose en reglas y en un motor automatizado de inteligencia de amenazas, permitiendo además la exportación flexible de sus registros diagnósticos hacia diversas plataformas de análisis y monitoreo centralizado.
