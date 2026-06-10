@@ -30,6 +30,20 @@ Cuando un usuario externo que obtuvo acceso a través de un paquete de administr
 
 * El User Provisioning es el proceso automático que toma las identidades de Microsoft Entra ID y se encarga de crear, actualizar y borrar sus cuentas en las aplicaciones externas (como Slack) registradas en Enterprise Applications, eliminando la gestión manual del ciclo de vida del usuario.
 
+---
+
+## Condifional Access
+
+* Formas de Acceso MFA
+  * Métodos Estándar (Los tradicionales) :Son las formas de MFA más comunes, aunque hoy en día se consideran vulnerables a ataques de phishing avanzados:
+       * Microsoft Authenticator (Notificación Push clásica): Le llega una alerta a la app del celular del usuario donde solo tiene que tocar "Aprobar" o ingresar el número que ve en la pantalla de la computadora.
+       * Código de verificación (OTP) desde app de autenticación: El código de 6 dígitos que cambia cada 30 segundos, generado por Microsoft Authenticator, Google Authenticator o similares.
+       * Mensaje de texto (SMS): Un código numérico enviado por línea telefónica al celular registrado del usuario.
+       * Llamada de voz: El sistema llama al teléfono del usuario y este debe presionar la tecla numeral (#) para confirmar su identidad.
+   * Métodos Phishing-Resistant (Resistentes a Phishing) : Estas son las formas de MFA más seguras y modernas. Las directivas de Acceso Condicional te permiten exigir específicamente que el usuario use uno de estos métodos si intenta entrar a recursos ultra críticos (como cuentas de administradores):
+     * Windows Hello for Business: Autenticación biométrica (reconocimiento facial o huella dactilar) o PIN seguro del dispositivo, ligado directamente al chip TPM de la computadora del usuario.
+     * Claves de seguridad FIDO2 (Llaves físicas): Dispositivos de hardware USB o NFC (como las llaves YubiKey) que requieren que el usuario las conecte y las toque físicamente para iniciar sesión.
+      * Autenticación basada en certificados (CBA): El usuario valida su identidad utilizando un certificado digital criptográfico instalado en su máquina o en una tarjeta inteligente (Smart Card).
 
 ## General
 
