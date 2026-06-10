@@ -20,6 +20,9 @@ El Compliance score dentro de Microsoft Purview cuantifica el nivel de cumplimie
 
 * Las barreras de información (information barriers) permiten restringir la comunicación, la colaboración y el intercambio de datos en Microsoft Teams, SharePoint y OneDrive entre departamentos o grupos específicos de una misma organización para evitar conflictos de interés o cumplir con regulaciones internas.
 
+-- 
+La herramienta Content Explorer permite visibilizar los elementos específicos que han sido etiquetados o clasificados dentro de la organización, mientras que los consejos de política de DLP (DLP policy tips) actúan alertando proactivamente a los usuarios antes de que compartan datos sensibles hacia el exterior. Por el contrario, las barreras de información (Information Barriers) aplican restricciones rígidas que los usuarios finales no pueden evadir selectivamente, y los clasificadores entrenables (Trainable classifiers) no se limitan únicamente a campos de bases de datos estructuradas, sino que están diseñados principalmente para analizar y categorizar contenido no estructurado como documentos de texto y correos electrónicos.
+
 ## eDiscovery
 
 * eDiscovery se utiliza para buscar y revisar información almacenada electrónicamente, mientras que Communication Compliance se encarga de monitorear mensajes internos y externos para detectar violaciones de políticas corporativas.
