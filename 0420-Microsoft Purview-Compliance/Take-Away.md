@@ -16,6 +16,10 @@ El Compliance score dentro de Microsoft Purview cuantifica el nivel de cumplimie
 
 * La característica Privacy Assessments de Microsoft Priva permite automatizar y estandarizar el ciclo de vida de las evaluaciones sobre el uso de datos personales dentro de una organización, reemplazando el seguimiento manual en hojas de cálculo por formularios dinámicos y métricas de riesgo centralizadas.
 
+---
+
+* Las barreras de información (information barriers) permiten restringir la comunicación, la colaboración y el intercambio de datos en Microsoft Teams, SharePoint y OneDrive entre departamentos o grupos específicos de una misma organización para evitar conflictos de interés o cumplir con regulaciones internas.
+
 ## eDiscovery
 
 * eDiscovery se utiliza para buscar y revisar información almacenada electrónicamente, mientras que Communication Compliance se encarga de monitorear mensajes internos y externos para detectar violaciones de políticas corporativas.
