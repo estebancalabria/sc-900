@@ -123,6 +123,9 @@ Paso 5: Contención y Remediación (Take response actions): Una vez determinado 
 
 ---
 
+* Microsoft Cloud App Security (conocido actualmente como Microsoft Defender for Cloud Apps) se integra de forma nativa con las políticas de Acceso Condicional mediante el control de aplicaciones en sesión (Conditional Access App Control). Esto permite utilizar una arquitectura de proxy inverso para monitorear y controlar las sesiones de los usuarios en tiempo real, aplicando acciones inmediatas como bloquear la descarga de archivos sensibles o forzar restricciones de copia y pegue.
+---
+
 * Dentro del portal de Microsoft Defender, la pestaña de activos (Assets) centraliza la visualización de los dispositivos e identidades de la organización, mientras que el centro de aprendizaje (Learning Hub) ofrece un acceso directo a documentación y guías formativas integradas de Microsoft Learn.
 
 ---
