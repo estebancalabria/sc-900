@@ -14,6 +14,7 @@
 * **Microsoft Defender for Identity (MDI)**
 * **Qué protege:** Las identidades y la autenticación local. Detecta ataques basados en credenciales (movimientos laterales, ataques de fuerza bruta).
 * **Dónde se encuentra/administra:** Se investiga en el portal de Defender, pero requiere instalar fícisamente un sensor (*MDI Sensor*) dentro de los **Domain Controllers (Controladores de Dominio)** locales de la empresa.
+* Microsoft Defender for Identity es una solución de seguridad basada en la nube que recopila y analiza las señales y el tráfico de los controladores de dominio locales (Active Directory on-premises) para identificar, detectar e investigar amenazas avanzadas, identidades comprometidas y acciones maliciosas dirigidas a la organización.
 
 
 
