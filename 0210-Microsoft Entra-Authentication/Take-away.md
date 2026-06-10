@@ -30,16 +30,20 @@
 
 ---
 
-Microsoft Defender for Identity protege entornos híbridos analizando de manera continua las señales y la autenticación de los servicios de directorio para identificar vectores de ataque basados en identidades, especializándose en la detección de movimientos laterales ejecutados por ciberdelincuentes y en el descubrimiento de actividades internas maliciosas (malicious insider activity).
+* Microsoft Defender for Identity protege entornos híbridos analizando de manera continua las señales y la autenticación de los servicios de directorio para identificar vectores de ataque basados en identidades, especializándose en la detección de movimientos laterales ejecutados por ciberdelincuentes y en el descubrimiento de actividades internas maliciosas (malicious insider activity).
 
 ---
 
-Las capacidades de colaboración de Azure Active Directory (Azure AD) B2B permiten federar el acceso de usuarios externos provenientes de organizaciones socias, integrándolos de forma controlada como usuarios invitados (guest users) dentro del directorio corporativo sin necesidad de administrar sus credenciales locales.
+* Las capacidades de colaboración de Azure Active Directory (Azure AD) B2B permiten federar el acceso de usuarios externos provenientes de organizaciones socias, integrándolos de forma controlada como usuarios invitados (guest users) dentro del directorio corporativo sin necesidad de administrar sus credenciales locales.
 
 ---
 
-La implementación de identidades híbridas se realiza mediante herramientas de sincronización como Azure AD Connect para integrar los servicios locales de AD DS con Azure AD bajo un mismo tenant de organización, descartando la necesidad de desplegar múltiples inquilinos de Microsoft 365.
+* La implementación de identidades híbridas se realiza mediante herramientas de sincronización como Azure AD Connect para integrar los servicios locales de AD DS con Azure AD bajo un mismo tenant de organización, descartando la necesidad de desplegar múltiples inquilinos de Microsoft 365.
 
 ---
 
-La pregunta destaca un concepto clave de seguridad y privacidad en Windows Hello for Business: los datos biométricos del usuario empleados para la autenticación se almacenan únicamente en el dispositivo local (protegidos por el chip TPM) y nunca se envían a la nube ni a servidores externos.
+* Hello for Business: los datos biométricos del usuario empleados para la autenticación se almacenan únicamente en el dispositivo local (protegidos por el chip TPM) y nunca se envían a la nube ni a servidores externos.
+
+## MFA
+
+* Azure Multi-Factor Authentication (MFA) admite la validación de identidad a través de mensajes de texto (SMS), la aplicación móvil Microsoft Authenticator y llamadas telefónicas automatizadas, excluyendo de los factores nativos de segundo paso a las preguntas de seguridad o la verificación por correo electrónico estándar para inicios de sesión tradicionales de usuarios.
