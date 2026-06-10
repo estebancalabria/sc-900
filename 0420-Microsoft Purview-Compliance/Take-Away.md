@@ -20,6 +20,10 @@ El Compliance score dentro de Microsoft Purview cuantifica el nivel de cumplimie
 
 * La característica Privacy Assessments de Microsoft Priva permite automatizar y estandarizar el ciclo de vida de las evaluaciones sobre el uso de datos personales dentro de una organización, reemplazando el seguimiento manual en hojas de cálculo por formularios dinámicos y métricas de riesgo centralizadas.
 
+---
+
+* eDiscovery se utiliza para buscar y revisar información almacenada electrónicamente, mientras que Communication Compliance se encarga de monitorear mensajes internos y externos para detectar violaciones de políticas corporativas.
+
 ## Principios Privacidad Microsoft
 
 * Control (Control): El usuario es el dueño de sus datos y tiene el poder de decidir qué se almacena, qué se borra o qué se exporta de la plataforma.
