@@ -15,3 +15,7 @@ Microsoft Sentinel automatiza el manejo de incidentes a través de reglas de aut
 ---
 
 * Microsoft Sentinel utiliza los libros de trabajo (Workbooks) para ofrecer capacidades avanzadas de visualización de datos y paneles interactivos, y las listas de seguimiento (Watchlists) para enriquecer la detección de amenazas mediante la correlación con fuentes de datos externas o indicadores personalizados.
+
+---
+
+* Microsoft Sentinel funciona como una plataforma SIEM/SOAR capaz de centralizar e ingestar telemetría híbrida o multicloud proveniente de AWS, GCP y entornos locales, ofreciendo tableros interactivos mediante Workbooks para la visualización de tendencias y permitiendo estructurar estrategias de remediación semiautomatizadas donde los analistas validan las acciones de los Playbooks antes de su ejecución operativa.
