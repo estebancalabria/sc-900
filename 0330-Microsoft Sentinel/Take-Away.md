@@ -23,3 +23,8 @@ Microsoft Sentinel automatiza el manejo de incidentes a través de reglas de aut
 ---
 
 Para conectar cualquier fuente de datos (ya sea de Microsoft como Defender, o de terceros como Firewalls Fortinet, AWS CloudTrail, etc.) hacia Microsoft Sentinel en tiempo real, se utilizan los Data Connectors (conectores de datos) integrados en la plataforma. El Log Analytics Workspace es donde se almacenan los datos, pero la herramienta de integración propiamente dicha es el conector.
+
+---
+
+* La integración nativa entre Microsoft Sentinel (SIEM) y Microsoft 365 Defender (XDR) unifica las capacidades de ambas plataformas. Esto permite combinar la visibilidad global de registros de toda la infraestructura con la detección, correlación automática y respuesta extendida ante amenazas específicas de endpoints, identidades y aplicaciones en la nube de forma centralizada.
+
