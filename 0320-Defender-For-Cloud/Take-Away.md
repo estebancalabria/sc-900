@@ -7,3 +7,7 @@ Microsoft Defender for Cloud unifica la gestión de seguridad en pipelines de De
 ---
 
 Microsoft Defender for Cloud unifica la visibilidad operativa mediante su soporte nativo multicloud para entornos AWS y GCP y la protección específica contra amenazas de resolución de nombres con Defender for DNS, permitiendo la activación simultánea de múltiples planes modulares por suscripción dado que las características de seguridad mejoradas quedan excluidas del nivel fundacional gratuito de CSPM.
+
+---
+
+El Secure Score de Microsoft Defender for Cloud actúa como un indicador unificado y transversal que evalúa el estado de cumplimiento normativo y robustez técnica a lo largo de múltiples suscripciones de Azure, incrementando su puntuación porcentual a medida que se mitigan riesgos críticos mediante la aplicación de actualizaciones del sistema y la exigencia de autenticación multifactor (MFA).
