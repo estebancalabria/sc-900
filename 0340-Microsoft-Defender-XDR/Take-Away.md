@@ -91,6 +91,19 @@
 
 La característica de SOC Optimization dentro del portal unificado de Microsoft Defender entrega recomendaciones basadas en datos para maximizar la eficiencia técnica y el valor operativo de las herramientas de seguridad, ayudando al equipo del SOC a perfeccionar la cobertura de detección frente a amenazas en constante evolución.
 
+### Flujo metodológico de investigación en el SOC
+
+Para entender la lógica cronológica detrás de este ordenamiento, el proceso sigue el ciclo estándar de clasificación, enriquecimiento, análisis profundo y remediación dentro del portal unificado de seguridad:
+
+Paso 1: Triage Inicial (View incident): Todo flujo comienza con la detección y la apertura del caso desde la cola centralizada de Incidents & Alerts. Es el punto de partida obligado para el analista.
+
+Paso 2: Enriquecimiento Contextual Automatizado (Review incident summary): Antes de profundizar manualmente, si la organización cuenta con Security Copilot, se lee el resumen ejecutivo de IA generativa para comprender en segundos la historia general del ataque (línea de tiempo, criticidad e impacto estimado).
+
+Paso 3: Análisis de Evidencia (Analyze alerts & assets): Con el panorama macro claro, el analista realiza el zoom técnico: inspecciona el árbol de alertas relacionadas, revisa qué dispositivos, identidades o buzones de correo (assets) están comprometidos y correlaciona los artefactos preliminares.
+
+Paso 4: Investigación Avanzada (Launch advanced hunting): Si los datos de la alerta no bastan para determinar el alcance total del compromiso, se escala a la búsqueda proactiva usando consultas KQL en Advanced Hunting para desenterrar conexiones ocultas o persistencias del atacante en los logs históricos.
+
+Paso 5: Contención y Remediación (Take response actions): Una vez determinado el veredicto, se aplican las acciones correctivas (aislar un endpoint, suspender un usuario, borrar correos maliciosos). Estas acciones de mitigación se consolidan y ejecutan a través del Action Center.
 ---
 
 ## General
