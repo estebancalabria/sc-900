@@ -23,12 +23,12 @@
             * Permite buscar y examinar los activos de datos mediante un inventario centralizado.
         * **Data Quality**
             * Evalúa si tus datos son confiables mediante reglas automatizadas e Inteligencia Artificial.
-         * **Data Estate Insights**
+        * **Data Estate Insights**
             * Muestra tableros ejecutivos sobre la salud, uso y brechas de gobernanza de tus datos.
    * **Data Security**
-         * **Information Protection**
+        * **Information Protection**
             * Clasifica y cifra archivos confidenciales usando etiquetas de sensibilidad.
-         * **Data Security Posture Management (DSPM)**
+        * **Data Security Posture Management (DSPM)**
             * Descubre datos sensibles expuestos y evalúa riesgos de seguridad en nubes híbridas.
-         * **DSPM for AI**
+        * **DSPM for AI**
             * Monitorea qué datos confidenciales interactúan con herramientas de Inteligencia Artificial como Copilot.
