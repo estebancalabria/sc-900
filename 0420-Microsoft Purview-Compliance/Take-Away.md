@@ -10,19 +10,24 @@
 
 ---
 
-La herramienta de eDiscovery dentro del ecosistema de Microsoft Purview proporciona las capacidades legales y operativas necesarias para identificar, retener (hold) y exportar información almacenada electrónicamente (ESI) con el fin de soportar auditorías internas o investigaciones judiciales.
-
----
-
 El Compliance score dentro de Microsoft Purview cuantifica el nivel de cumplimiento normativo y progreso operativo de una organización al completar acciones recomendadas para mitigar riesgos vinculados a estándares regulatorios y auditorías de protección de datos confidenciales.
 
 ---
 
 * La característica Privacy Assessments de Microsoft Priva permite automatizar y estandarizar el ciclo de vida de las evaluaciones sobre el uso de datos personales dentro de una organización, reemplazando el seguimiento manual en hojas de cálculo por formularios dinámicos y métricas de riesgo centralizadas.
 
----
+## eDiscovery
 
 * eDiscovery se utiliza para buscar y revisar información almacenada electrónicamente, mientras que Communication Compliance se encarga de monitorear mensajes internos y externos para detectar violaciones de políticas corporativas.
+
+---
+
+La herramienta de eDiscovery dentro del ecosistema de Microsoft Purview proporciona las capacidades legales y operativas necesarias para identificar, retener (hold) y exportar información almacenada electrónicamente (ESI) con el fin de soportar auditorías internas o investigaciones judiciales.
+
+---
+
+* Tres características avanzadas y exclusivas de la versión Premium de Microsoft Purview eDiscovery: el reconocimiento óptico de caracteres (OCR) en imágenes, el armado de hilos de conversación continuos para Teams (Conversation threading) y el resumen de evidencias asistido por inteligencia artificial mediante Security Copilot.
+
 
 ## Principios Privacidad Microsoft
 
