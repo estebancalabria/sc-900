@@ -11,3 +11,7 @@
 ---
 
 La herramienta de eDiscovery dentro del ecosistema de Microsoft Purview proporciona las capacidades legales y operativas necesarias para identificar, retener (hold) y exportar información almacenada electrónicamente (ESI) con el fin de soportar auditorías internas o investigaciones judiciales.
+
+---
+
+El Compliance score dentro de Microsoft Purview cuantifica el nivel de cumplimiento normativo y progreso operativo de una organización al completar acciones recomendadas para mitigar riesgos vinculados a estándares regulatorios y auditorías de protección de datos confidenciales.
