@@ -1,0 +1,2 @@
+
+* La funcionalidad de entrenamiento de simulación de ataques (Attack simulation training) forma parte integrada de Microsoft Defender for Office 365 (específicamente en el plan 2). Esta herramienta técnica permite a los administradores de seguridad diseñar, ejecutar y evaluar simulaciones realistas de amenazas comunes basadas en correo electrónico, como campañas de phishing, suplantación de identidad o adjuntos maliciosos, asignando automáticamente capacitaciones específicas a aquellos usuarios que interactúen con el señuelo.
