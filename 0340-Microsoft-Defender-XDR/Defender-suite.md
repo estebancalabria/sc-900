@@ -4,13 +4,30 @@
 
 ---
 
-### 2. Protección del Puesto de Trabajo e Infraestructura Local (Endpoints e Identidad)
+### **Microsoft Defender for Endpoint (MDE)**
 
-* **Microsoft Defender for Endpoint (MDE)**
-* **Qué protege:** Las computadoras de los usuarios (Windows, Mac, Linux), celulares (Android, iOS) y servidores corporativos. Es el antivirus avanzado (EDR).
+Microsoft Defender for Endpoint ofrece capacidades avanzadas de protección para dispositivos que incluyen la investigación y remediación automatizada de alertas de seguridad, así como reglas de reducción de la superficie de ataque (attack surface reduction) para minimizar los vectores vulnerables en los endpoints de la organización.
+
+*  Protección del Puesto de Trabajo e Infraestructura Local (Endpoints e Identidad)
+
+* **Qué protege:** Las computadoras de los usuarios (Windows, Mac, Linux), celulares (Android, iOS) y servidores corporativos. Es el antivirus avanzado (EDR). Se instala una aplicacion en el dispositivo que queda registrado en security.microsoft.com
+
 * **Dónde se encuentra/administra:** Las alertas e investigaciones se hacen en el portal de Defender, pero las políticas de instalación y configuración de los agentes se empujan masivamente desde **Microsoft Intune**.
-* Microsoft Defender for Endpoint ofrece capacidades avanzadas de protección para dispositivos que incluyen la investigación y remediación automatizada de alertas de seguridad, así como reglas de reducción de la superficie de ataque (attack surface reduction) para minimizar los vectores vulnerables en los endpoints de la organización.
+ 
+* Key Words
+  * Attack Surface Reduction (ASR)
+    * Reglas que bloquean comportamientos maliciosos comunes
+  * Next-generation protection
+    * Antivirus basado en ML y análisis en la nube
+  * Endpoint Detection and Response (EDR)
+    * Detección de amenazas avanzadas y respuesta post-breach
+  * Auto investigation and remediatio
+    * Investigación automática de alertas sin intervención manual
+  * Threat and Vulnerability Management (TVM)
+    * Inventario de vulnerabilidades y recomendaciones de hardening
+ 
 
+---
 
 * **Microsoft Defender for Identity (MDI)**
 * **Qué protege:** Las identidades y la autenticación local. Detecta ataques basados en credenciales (movimientos laterales, ataques de fuerza bruta).
