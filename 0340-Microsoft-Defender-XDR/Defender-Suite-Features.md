@@ -35,25 +35,19 @@
     * **IDR - Identity Direct Remediation**
         * Capacidad de deshabilitar cuentas o forzar el cambio de contraseña de un usuario local directamente desde el portal en la nube.
 * **MDCA - Microsoft Defender for Cloud Apps**
-      * **CASB - Cloud Access Security Broker**
-            * Núcleo central que actúa como intermediario de seguridad entre tus usuarios y los servicios en la nube.
-      * **STD - Shadow IT Detection**
-            * Descubrimiento automático de aplicaciones en la nube no autorizadas que usan los empleados.
-            * Evaluación del nivel de riesgo de más de 31.000 aplicaciones web mediante un catálogo nativo.
-      
-      
-      * **SAD - Cloud App Discovery**
-      * Análisis de los logs de tráfico web de la empresa (enviados por Defender for Endpoint o firewalls) para mapear el consumo de datos en la nube.
-      
-      
-      * **MAM - Conditional Access App Control**
-      * Integración con Entra ID para aplicar políticas en tiempo real (ej: impedir la descarga de archivos si el usuario se conecta desde una PC personal).
-      * Monitoreo y control de sesiones web dinámicas (*Session Policies*).
-      
-      
-      * **DLP - Cloud Data Loss Prevention**
-      * Escaneo y clasificación automática de archivos sensibles alojados en nubes de terceros (ej: buscar DNIs en Google Drive o Dropbox).
-      * Aplicación de acciones de cumplimiento como borrar permisos de compartir, poner en cuarentena o aplicar etiquetas de Purview.
+    * **CASB - Cloud Access Security Broker**
+        * Núcleo central que actúa como intermediario de seguridad entre tus usuarios y los servicios en la nube.
+    * **STD - Shadow IT Detection**
+        * Descubrimiento automático de aplicaciones en la nube no autorizadas que usan los empleados.
+        * Evaluación del nivel de riesgo de más de 31.000 aplicaciones web mediante un catálogo nativo.
+    * **SAD - Cloud App Discovery**
+        * Análisis de los logs de tráfico web de la empresa (enviados por Defender for Endpoint o firewalls) para mapear el consumo de datos en la nube. 
+    * **MAM - Conditional Access App Control**
+        * Integración con Entra ID para aplicar políticas en tiempo real (ej: impedir la descarga de archivos si el usuario se conecta desde una PC personal).
+        * Monitoreo y control de sesiones web dinámicas (*Session Policies*).
+    * **DLP - Cloud Data Loss Prevention**
+        * Escaneo y clasificación automática de archivos sensibles alojados en nubes de terceros (ej: buscar DNIs en Google Drive o Dropbox).
+        * Aplicación de acciones de cumplimiento como borrar permisos de compartir, poner en cuarentena o aplicar etiquetas de Purview.
       
       
       * **SSP - Cloud Security Posture Management**
