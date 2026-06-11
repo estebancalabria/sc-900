@@ -47,20 +47,12 @@
         * Monitoreo y control de sesiones web dinámicas (*Session Policies*).
     * **DLP - Cloud Data Loss Prevention**
         * Escaneo y clasificación automática de archivos sensibles alojados en nubes de terceros (ej: buscar DNIs en Google Drive o Dropbox).
-        * Aplicación de acciones de cumplimiento como borrar permisos de compartir, poner en cuarentena o aplicar etiquetas de Purview.
-      
-      
-      * **SSP - Cloud Security Posture Management**
-      * Evaluación continua de las configuraciones de seguridad en plataformas SaaS (ej: detectar si Salesforce o Microsoft 365 tienen configuraciones inseguras).
-      
-      
-      * **SSP - SaaS Security Posture Management**
-      * Subcomponente específico enfocado en dar recomendaciones de endurecimiento (*hardening*) exclusivas para software como servicio.
-      
-      
-      * **UEBA - User and Entity Behavior Analytics**
-      * Detección de anomalías en el comportamiento de cuentas en la nube (ej: descargas masivas de archivos, viajes imposibles o inicios de sesión inusuales).
-      
-      
-      * **API - App Connector Integration**
-      * Conexión directa mediante APIs nativas a entornos como AWS, Google Workspace, Salesforce y ServiceNow para visibilidad profunda del registro de auditoría.
+        * Aplicación de acciones de cumplimiento como borrar permisos de compartir, poner en cuarentena o aplicar etiquetas de Purview.    
+    * **SSP - Cloud Security Posture Management**
+       * Evaluación continua de las configuraciones de seguridad en plataformas SaaS (ej: detectar si Salesforce o Microsoft 365 tienen configuraciones inseguras).
+    * **SSP - SaaS Security Posture Management**
+       * Subcomponente específico enfocado en dar recomendaciones de endurecimiento (*hardening*) exclusivas para software como servicio.
+    * **UEBA - User and Entity Behavior Analytics**
+       * Detección de anomalías en el comportamiento de cuentas en la nube (ej: descargas masivas de archivos, viajes imposibles o inicios de sesión inusuales).
+    * **API - App Connector Integration**
+       * Conexión directa mediante APIs nativas a entornos como AWS, Google Workspace, Salesforce y ServiceNow para visibilidad profunda del registro de auditoría.
