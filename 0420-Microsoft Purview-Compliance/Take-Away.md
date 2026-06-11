@@ -46,33 +46,20 @@ El Compliance score dentro de Microsoft Purview cuantifica el nivel de cumplimie
 
 ---
 
-La herramienta de eDiscovery dentro del ecosistema de Microsoft Purview proporciona las capacidades legales y operativas necesarias para identificar, retener (hold) y exportar información almacenada electrónicamente (ESI) con el fin de soportar auditorías internas o investigaciones judiciales.
+* La herramienta de eDiscovery dentro del ecosistema de Microsoft Purview proporciona las capacidades legales y operativas necesarias para identificar, retener (hold) y exportar información almacenada electrónicamente (ESI) con el fin de soportar auditorías internas o investigaciones judiciales.
 
 ---
 
 * Tres características avanzadas y exclusivas de la versión Premium de Microsoft Purview eDiscovery: el reconocimiento óptico de caracteres (OCR) en imágenes, el armado de hilos de conversación continuos para Teams (Conversation threading) y el resumen de evidencias asistido por inteligencia artificial mediante Security Copilot.
 
-
-## Principios Privacidad Microsoft
-
-* Control (Control): El usuario es el dueño de sus datos y tiene el poder de decidir qué se almacena, qué se borra o qué se exporta de la plataforma.
-
 ---
 
-* Transparencia (Transparency): Microsoft detalla con total claridad dónde se guardan físicamente tus datos en sus data centers y bajo qué reglas y tecnologías se procesan.
+### eDiscovery Workdlow
 
----
+* Crear el caso (case)
+* Agregar miembros al caso (asignar permisos)
+* Crear un hold (preservar contenido de custodios o ubicaciones)
+* Buscar contenido (search)
+* Previsualizar resultados de la búsqueda
+* Exportar y descargar los resultados
 
-* Seguridad (Security): Garantiza la protección técnica de la información mediante un cifrado fuerte (tanto cuando los datos viajan por la red como cuando están guardados en los discos) y procesos operativos estrictos en sus instalaciones.
-
----
-
-* Defensa legal de tus datos (Strong legal protection): Microsoft se compromete a proteger los datos de sus clientes frente a solicitudes gubernamentales. Si un gobierno pide acceso a tus datos, Microsoft rechaza la orden si no es legalmente válida y te notifica de inmediato a menos que esté prohibido por ley.
-
----
-
-* Ausencia de segmentación (No profiling): Microsoft no utiliza el contenido de tus correos electrónicos, chats, archivos de OneDrive ni bases de datos de Azure para perfilarte o enviarte publicidad dirigida.
-
----
-
-* Beneficio del cliente (Benefits to you): Cuando Microsoft procesa tus datos en la nube, lo hace únicamente con el fin de proveerte y mejorar el servicio que estás pagando, nunca para beneficio comercial propio.
