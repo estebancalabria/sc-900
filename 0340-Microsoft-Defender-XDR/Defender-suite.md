@@ -1,11 +1,11 @@
 ### 1. El Portal Central (Donde converge todo)
 
-* **Microsoft 365 Defender (Consola Unificada):** No es un producto suelto, es el portal web principal (`security.microsoft.com`). Es el panel donde los analistas del SOC ven los incidentes correlacionados de todos los "Defender" que te detallo abajo.
+**Microsoft 365 Defender (Consola Unificada):** No es un producto suelto, es el portal web principal (`security.microsoft.com`). Es el panel donde los analistas del SOC ven los incidentes correlacionados de todos los "Defender" que te detallo abajo.
 
 * Soluciones
- * **Microsoft Defender for Endpoint (MDE)**
- * **Microsoft Defender for Cloud Apps (MDCA)**
- * **Microsoft Defender for Identity (MDI)**
+  * **Microsoft Defender for Endpoint (MDE)**
+  * **Microsoft Defender for Cloud Apps (MDCA)**
+  * **Microsoft Defender for Identity (MDI)**
 
 ---
 
