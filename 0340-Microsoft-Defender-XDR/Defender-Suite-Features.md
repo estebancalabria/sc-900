@@ -17,6 +17,9 @@
         * Detección automática de vulnerabilidades y priorización de parches según el nivel de riesgo.    
     * **AH - Advanced Hunting**
         * Consola de búsqueda proactiva de amenazas mediante consultas en lenguaje KQL.
+
+---
+   
 * **MDI - Microsoft Defender for Identity**
     * **DPI - Deep Packet Inspection**
         * Captura y análisis del tráfico de red que entra y sale de los Controladores de Dominio.
@@ -34,6 +37,9 @@
         * Evaluaciones de seguridad que exponen debilidades del Active Directory local (ej: cuentas con contraseñas que no expiran).
     * **IDR - Identity Direct Remediation**
         * Capacidad de deshabilitar cuentas o forzar el cambio de contraseña de un usuario local directamente desde el portal en la nube.
+
+---
+      
 * **MDCA - Microsoft Defender for Cloud Apps**
     * **CASB - Cloud Access Security Broker**
         * Núcleo central que actúa como intermediario de seguridad entre tus usuarios y los servicios en la nube.
@@ -56,3 +62,28 @@
        * Detección de anomalías en el comportamiento de cuentas en la nube (ej: descargas masivas de archivos, viajes imposibles o inicios de sesión inusuales).
     * **API - App Connector Integration**
        * Conexión directa mediante APIs nativas a entornos como AWS, Google Workspace, Salesforce y ServiceNow para visibilidad profunda del registro de auditoría.
+
+---
+
+- **MDFC** → Microsoft Defender for Cloud
+   - **CSPM** → Cloud Security Posture Management
+      - Evalúa configuraciones inseguras en suscripciones Azure, AWS y GCP
+      - Da un Secure Score como métrica central de postura
+   - **CWP** → Cloud Workload Protection
+      - Protección activa para VMs, contenedores, bases de datos, storage, Key Vault, App Service
+   - **Hybrid Security**
+      - Extiende la protección a servidores on-premises via Azure Arc
+   - **Regulatory Compliance**
+      - Dashboard que mapea tu postura contra estándares como PCI-DSS, ISO 27001, NIST
+   - **Defender CSPM (paid)**
+      - Attack Path Analysis y Cloud Security Explorer
+   - **Just-in-Time VM Access**
+      - Bloquea puertos RDP/SSH salvo cuando se solicitan explícitamente
+   - **Adaptive Application Controls**
+      - Whitelisting inteligente de procesos en VMs
+   - **Vulnerability Assessment**
+      - Escaneo de VMs e imágenes de contenedor integrado con Qualys o Microsoft Defender
+   - **Security Alerts**
+      - Detección de comportamiento anómalo en recursos Azure
+   - **API Integration**
+      - Conectores nativos para AWS y GCP para visibilidad multicloud
