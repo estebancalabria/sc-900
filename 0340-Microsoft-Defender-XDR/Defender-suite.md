@@ -6,6 +6,8 @@
   * **Microsoft Defender for Endpoint (MDE)**
   * **Microsoft Defender for Cloud Apps (MDCA)**
   * **Microsoft Defender for Identity (MDI)**
+  * **Microsoft Defender for Office 365 (MDO)**
+  * **Microsoft Defender for Cloud (MDfC)**
 
 ---
 
@@ -83,17 +85,53 @@ Microsoft Defender for Identity es una solución de seguridad basada en la nube 
 
 ---
 
-### 3. Protección del Entorno de Productividad (SaaS, Correo y Colaboración)
+**Microsoft Defender for Office 365 (MDO)**
 
-* **Microsoft Defender for Office 365 (MDO)**
-* **Qué protege:** El ecosistema de colaboración y mensajería de la empresa. Frena correos de phishing, archivos adjuntos maliciosos y links truchos. Protege **Exchange Online, Teams, SharePoint y OneDrive**.
-* **Dónde se encuentra/administra:** Está integrado directamente de forma nativa en la nube de Microsoft 365. Se configura y gestiona desde la sección de *Email & Collaboration* del portal de Defender.
+Microsoft Defender for Office 365 es una solución de seguridad basada en la nube que protege a las organizaciones contra amenazas avanzadas en el correo electrónico y las herramientas de colaboración de Microsoft 365, incluyendo phishing, malware, links maliciosos y archivos adjuntos peligrosos.
 
+- **Qué protege:** El correo electrónico (Exchange Online), Teams, SharePoint y OneDrive. Analiza emails entrantes y salientes, archivos adjuntos y links en busca de contenido malicioso antes de que lleguen al usuario.
+- **Dónde se encuentra/administra:** Se administra en **security.microsoft.com → Email & collaboration**. No requiere instalación de agentes, opera directamente sobre los servicios de Microsoft 365 en la nube.
+- Key Words
+   - **Safe Attachments**
+      - Abre los archivos adjuntos en un entorno aislado (sandbox) antes de entregarlos al usuario para detectar malware
+   - **Safe Links**
+      - Reescribe y verifica los links de emails y documentos en tiempo real al momento del clic
+   - **Anti-phishing**
+      - Detección de suplantación de identidad (impersonation) de usuarios y dominios conocidos
+   - **Anti-malware**
+      - Escaneo de emails y archivos en busca de malware conocido
+   - **Attack Simulation Training**
+      - Simulaciones de phishing controladas para entrenar y concientizar a los usuarios
+   - **Threat Explorer**
+      - Herramienta de investigación para analizar emails maliciosos detectados en el tenant
+   - **Zero-hour Auto Purge (ZAP)**
+      - Elimina retroactivamente emails ya entregados cuando se detecta que son maliciosos después de la entrega
 
-* **Microsoft Defender for Cloud Apps (MDCA)**
-* **Qué protege:** La seguridad de las aplicaciones en la nube de terceros (SaaS). Es el "guardaespalda" (CASB) que vigila qué hacen los usuarios en plataformas como Salesforce, Google Drive, Dropbox o AWS para evitar la fuga de datos y el Shadow IT.
-* **Dónde se encuentra/administra:** Se gestiona en el portal de Defender (en la sección *Cloud Apps*), y se nutre del tráfico de red reportado por las computadoras o los firewalls de la empresa.
+---
 
+**Microsoft Defender for Cloud (MDfC)**
+
+Microsoft Defender for Cloud es una plataforma de protección de aplicaciones nativa de la nube (CNAPP) que combina gestión de postura de seguridad y protección de workloads para entornos Azure, multicloud (AWS, GCP) y on-premises, proporcionando visibilidad centralizada y protección activa contra amenazas en toda la infraestructura.
+
+- **Qué protege:** Infraestructura cloud y on-premises: máquinas virtuales, contenedores, bases de datos, storage, App Service, Key Vault y recursos de AWS y GCP. No protege usuarios ni emails, protege **recursos e infraestructura**.
+- **Dónde se encuentra/administra:** Se administra en **portal.azure.com → Microsoft Defender for Cloud**. No requiere instalación manual en recursos Azure, pero requiere instalar el **Azure Monitor Agent** en servidores on-premises o VMs para extender la cobertura.
+- Key Words
+   - **CSPM - Cloud Security Posture Management**
+      - Evalúa configuraciones inseguras en suscripciones Azure, AWS y GCP y genera un Secure Score
+   - **CWP - Cloud Workload Protection**
+      - Protección activa contra amenazas para VMs, contenedores, bases de datos y storage
+   - **Secure Score**
+      - Métrica central que mide la postura de seguridad de la infraestructura y prioriza mejoras
+   - **Regulatory Compliance**
+      - Dashboard que mapea la postura del tenant contra estándares como PCI-DSS, ISO 27001 y NIST
+   - **Just-in-Time VM Access (JIT)**
+      - Bloquea puertos RDP/SSH y los abre solo cuando se solicitan explícitamente, reduciendo superficie de ataque
+   - **Defender CSPM (paid)**
+      - Plan avanzado que agrega Attack Path Analysis y Cloud Security Explorer
+   - **Hybrid Security**
+      - Extiende la protección a servidores on-premises mediante Azure Arc
+   - **Attack Path Analysis**
+      - Identifica rutas que un atacante podría usar para moverse lateralmente entre recursos cloud
 
 
 ---
