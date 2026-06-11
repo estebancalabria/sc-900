@@ -50,6 +50,10 @@ Cuando un usuario externo que obtuvo acceso a través de un paquete de administr
      * Claves de seguridad FIDO2 (Llaves físicas): Dispositivos de hardware USB o NFC (como las llaves YubiKey) que requieren que el usuario las conecte y las toque físicamente para iniciar sesión.
       * Autenticación basada en certificados (CBA): El usuario valida su identidad utilizando un certificado digital criptográfico instalado en su máquina o en una tarjeta inteligente (Smart Card).
 
+---
+
+Los Session controls en Conditional Access permiten controlar lo que el usuario puede hacer dentro de la sesión una vez que ya autenticó. Por ejemplo: permitir el acceso pero bloquear la descarga de archivos si el dispositivo no es corporativo.
+
 ## General
 
 * Microsoft Entra ID Governance y PIM protegen los accesos privilegiados a recursos de Azure y estructuran revisiones de acceso secuenciales en varias etapas, mientras que el aprovisionamiento automatiza el ciclo de vida de las cuentas en aplicaciones externas y las condiciones de uso se exigen mediante políticas de acceso directo en lugar de reglas de grupos dinámicos.
