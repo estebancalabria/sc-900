@@ -2,6 +2,11 @@
 
 * **Microsoft 365 Defender (Consola Unificada):** No es un producto suelto, es el portal web principal (`security.microsoft.com`). Es el panel donde los analistas del SOC ven los incidentes correlacionados de todos los "Defender" que te detallo abajo.
 
+* Soluciones
+ * **Microsoft Defender for Endpoint (MDE)**
+ * **Microsoft Defender for Cloud Apps (MDCA)**
+ * **Microsoft Defender for Identity (MDI)**
+
 ---
 
 ### **Microsoft Defender for Endpoint (MDE)**
@@ -29,13 +34,52 @@ Microsoft Defender for Endpoint ofrece capacidades avanzadas de protección para
 
 ---
 
-* **Microsoft Defender for Identity (MDI)**
-* **Qué protege:** Las identidades y la autenticación local. Detecta ataques basados en credenciales (movimientos laterales, ataques de fuerza bruta).
-* **Dónde se encuentra/administra:** Se investiga en el portal de Defender, pero requiere instalar fícisamente un sensor (*MDI Sensor*) dentro de los **Domain Controllers (Controladores de Dominio)** locales de la empresa.
-* Microsoft Defender for Identity es una solución de seguridad basada en la nube que recopila y analiza las señales y el tráfico de los controladores de dominio locales (Active Directory on-premises) para identificar, detectar e investigar amenazas avanzadas, identidades comprometidas y acciones maliciosas dirigidas a la organización.
-* Microsoft Defender for Identity se instala exclusivamente en los controladores de dominio locales (AD DS) para capturar el tráfico de red y los eventos de la oficina, pero envía esa información a la nube de Microsoft para su análisis y detección de amenazas.
+**Microsoft Defender for Cloud Apps (MDCA)**
 
+Microsoft Defender for Cloud Apps es un Cloud Access Security Broker (CASB) que actúa como intermediario de seguridad entre los usuarios y los servicios en la nube. Permite descubrir aplicaciones no autorizadas (Shadow IT), controlar sesiones en tiempo real y proteger datos sensibles en entornos SaaS de terceros.
 
+- Protección del Uso de Aplicaciones Cloud (SaaS y Shadow IT)
+- Qué protege: Las aplicaciones cloud que usan los empleados, tanto autorizadas (Microsoft 365, Salesforce, ServiceNow) como no autorizadas (Dropbox personal, Google Drive, apps desconocidas). Detecta comportamiento anómalo de usuarios en esas apps.
+- Dónde se encuentra/administra: Se administra en **security.microsoft.com → Cloud apps**. Se integra con Defender for Endpoint para capturar tráfico de dispositivos, o con firewalls/proxies para análisis de logs.
+- Key Words
+   - **Cloud Access Security Broker (CASB)**
+      - Intermediario de seguridad entre usuarios y servicios cloud
+   - **Shadow IT Discovery**
+      - Descubrimiento automático de apps no autorizadas usadas por empleados
+   - **Conditional Access App Control**
+      - Control de sesiones en tiempo real integrado con Entra ID (ej: bloquear descarga de archivos desde dispositivos no corporativos)
+   - **Cloud DLP**
+      - Escaneo y clasificación de archivos sensibles en nubes de terceros como Google Drive o Dropbox
+   - **UEBA - User and Entity Behavior Analytics**
+      - Detección de anomalías como descargas masivas, viajes imposibles o logins inusuales
+   - **App Governance**
+      - Control de apps OAuth de terceros que piden permisos a Microsoft 365
+   - **SSPM - SaaS Security Posture Management**
+      - Recomendaciones de hardening para configuraciones inseguras en apps SaaS como Salesforce o Microsoft 365
+
+---
+
+**Microsoft Defender for Identity (MDI)**
+
+Microsoft Defender for Identity es una solución de seguridad basada en la nube que recopila y analiza señales y tráfico de los controladores de dominio locales (Active Directory on-premises) para identificar, detectar e investigar amenazas avanzadas, identidades comprometidas y acciones maliciosas dirigidas a la organización.
+
+- **Qué protege:** Las identidades y la autenticación local en Active Directory. Detecta ataques basados en credenciales como movimientos laterales, ataques de fuerza bruta y pass-the-hash.
+- **Dónde se encuentra/administra:** Las alertas e investigaciones se hacen en **security.microsoft.com**, pero requiere instalar físicamente un **MDI Sensor** dentro de los Domain Controllers (Controladores de Dominio) del **Active Directory Domain Services (AD DS)** on-premises. El sensor captura el tráfico localmente y lo envía a la nube de Microsoft para su análisis.
+- Key Words
+   - **MDI Sensor**
+      - Agente instalado físicamente en los Domain Controllers para capturar tráfico de red y eventos de autenticación
+   - **Lateral Movement Detection**
+      - Detección de movimientos laterales entre equipos usando credenciales comprometidas
+   - **Pass-the-Hash / Pass-the-Ticket**
+      - Detección de ataques que roban y reutilizan hashes de contraseñas o tickets de Kerberos
+   - **Reconnaissance Detection**
+      - Detección de enumeración de usuarios, grupos y equipos del dominio (fase previa al ataque)
+   - **Compromised Identity**
+      - Identificación de cuentas de Active Directory que están siendo usadas de forma maliciosa
+   - **Impossible Travel**
+      - Detección de logins desde ubicaciones geográficamente imposibles para el mismo usuario
+   - **Integration con Active Directory (AD DS)**
+      - Se instala exclusivamente en entornos con Active Directory on-premises, no aplica a entornos 100% cloud
 
 ---
 
